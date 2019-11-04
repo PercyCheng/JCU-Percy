@@ -1,0 +1,1144 @@
+09:18:23 **** Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Static_Code/System/CPU_Init.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/CPU_Init.d" -MT"Static_Code/System/CPU_Init.o" -c -o "Static_Code/System/CPU_Init.o" "../Static_Code/System/CPU_Init.c"
+Finished building: ../Static_Code/System/CPU_Init.c
+ 
+Building file: ../Static_Code/System/Peripherals_Init.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Peripherals_Init.d" -MT"Static_Code/System/Peripherals_Init.o" -c -o "Static_Code/System/Peripherals_Init.o" "../Static_Code/System/Peripherals_Init.c"
+Finished building: ../Static_Code/System/Peripherals_Init.c
+ 
+Building file: ../Static_Code/System/Vectors.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Vectors.d" -MT"Static_Code/System/Vectors.o" -c -o "Static_Code/System/Vectors.o" "../Static_Code/System/Vectors.c"
+Finished building: ../Static_Code/System/Vectors.c
+ 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building file: ../Project_Settings/Startup_Code/startup.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Project_Settings/Startup_Code/startup.d" -MT"Project_Settings/Startup_Code/startup.o" -c -o "Project_Settings/Startup_Code/startup.o" "../Project_Settings/Startup_Code/startup.c"
+Finished building: ../Project_Settings/Startup_Code/startup.c
+ 
+Building file: ../Generated_Code/BitIoLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd1.d" -MT"Generated_Code/BitIoLdd1.o" -c -o "Generated_Code/BitIoLdd1.o" "../Generated_Code/BitIoLdd1.c"
+Finished building: ../Generated_Code/BitIoLdd1.c
+ 
+Building file: ../Generated_Code/BitIoLdd2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd2.d" -MT"Generated_Code/BitIoLdd2.o" -c -o "Generated_Code/BitIoLdd2.o" "../Generated_Code/BitIoLdd2.c"
+Finished building: ../Generated_Code/BitIoLdd2.c
+ 
+Building file: ../Generated_Code/BitIoLdd3.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd3.d" -MT"Generated_Code/BitIoLdd3.o" -c -o "Generated_Code/BitIoLdd3.o" "../Generated_Code/BitIoLdd3.c"
+Finished building: ../Generated_Code/BitIoLdd3.c
+ 
+Building file: ../Generated_Code/Blue.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Blue.d" -MT"Generated_Code/Blue.o" -c -o "Generated_Code/Blue.o" "../Generated_Code/Blue.c"
+Finished building: ../Generated_Code/Blue.c
+ 
+Building file: ../Generated_Code/Cpu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Finished building: ../Generated_Code/Cpu.c
+ 
+Building file: ../Generated_Code/FC321.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/FC321.d" -MT"Generated_Code/FC321.o" -c -o "Generated_Code/FC321.o" "../Generated_Code/FC321.c"
+Finished building: ../Generated_Code/FC321.c
+ 
+Building file: ../Generated_Code/Green.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Green.d" -MT"Generated_Code/Green.o" -c -o "Generated_Code/Green.o" "../Generated_Code/Green.c"
+Finished building: ../Generated_Code/Green.c
+ 
+Building file: ../Generated_Code/PE_LDD.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+Finished building: ../Generated_Code/PE_LDD.c
+ 
+Building file: ../Generated_Code/Pins1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Pins1.d" -MT"Generated_Code/Pins1.o" -c -o "Generated_Code/Pins1.o" "../Generated_Code/Pins1.c"
+Finished building: ../Generated_Code/Pins1.c
+ 
+Building file: ../Generated_Code/RealTimeLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/RealTimeLdd1.d" -MT"Generated_Code/RealTimeLdd1.o" -c -o "Generated_Code/RealTimeLdd1.o" "../Generated_Code/RealTimeLdd1.c"
+Finished building: ../Generated_Code/RealTimeLdd1.c
+ 
+Building file: ../Generated_Code/Red.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Red.d" -MT"Generated_Code/Red.o" -c -o "Generated_Code/Red.o" "../Generated_Code/Red.c"
+Finished building: ../Generated_Code/Red.c
+ 
+Building file: ../Generated_Code/TU1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/TU1.d" -MT"Generated_Code/TU1.o" -c -o "Generated_Code/TU1.o" "../Generated_Code/TU1.c"
+Finished building: ../Generated_Code/TU1.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o   
+Finished building target: LAB9.elf
+ 
+09:18:30 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+make: Nothing to be done for 'all'.
+09:18:42 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+make: Nothing to be done for 'all'.
+09:19:03 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+make: Nothing to be done for 'all'.
+09:19:49 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+make: Nothing to be done for 'all'.
+09:24:17 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Static_Code/System/CPU_Init.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/CPU_Init.d" -MT"Static_Code/System/CPU_Init.o" -c -o "Static_Code/System/CPU_Init.o" "../Static_Code/System/CPU_Init.c"
+Finished building: ../Static_Code/System/CPU_Init.c
+ 
+Building file: ../Static_Code/System/Peripherals_Init.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Peripherals_Init.d" -MT"Static_Code/System/Peripherals_Init.o" -c -o "Static_Code/System/Peripherals_Init.o" "../Static_Code/System/Peripherals_Init.c"
+Finished building: ../Static_Code/System/Peripherals_Init.c
+ 
+Building file: ../Static_Code/System/Vectors.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Vectors.d" -MT"Static_Code/System/Vectors.o" -c -o "Static_Code/System/Vectors.o" "../Static_Code/System/Vectors.c"
+Finished building: ../Static_Code/System/Vectors.c
+ 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building file: ../Generated_Code/BitIoLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd1.d" -MT"Generated_Code/BitIoLdd1.o" -c -o "Generated_Code/BitIoLdd1.o" "../Generated_Code/BitIoLdd1.c"
+Finished building: ../Generated_Code/BitIoLdd1.c
+ 
+Building file: ../Generated_Code/BitIoLdd2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd2.d" -MT"Generated_Code/BitIoLdd2.o" -c -o "Generated_Code/BitIoLdd2.o" "../Generated_Code/BitIoLdd2.c"
+Finished building: ../Generated_Code/BitIoLdd2.c
+ 
+Building file: ../Generated_Code/BitIoLdd3.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd3.d" -MT"Generated_Code/BitIoLdd3.o" -c -o "Generated_Code/BitIoLdd3.o" "../Generated_Code/BitIoLdd3.c"
+Finished building: ../Generated_Code/BitIoLdd3.c
+ 
+Building file: ../Generated_Code/Blue.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Blue.d" -MT"Generated_Code/Blue.o" -c -o "Generated_Code/Blue.o" "../Generated_Code/Blue.c"
+Finished building: ../Generated_Code/Blue.c
+ 
+Building file: ../Generated_Code/Cpu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Finished building: ../Generated_Code/Cpu.c
+ 
+Building file: ../Generated_Code/FC321.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/FC321.d" -MT"Generated_Code/FC321.o" -c -o "Generated_Code/FC321.o" "../Generated_Code/FC321.c"
+Finished building: ../Generated_Code/FC321.c
+ 
+Building file: ../Generated_Code/Green.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Green.d" -MT"Generated_Code/Green.o" -c -o "Generated_Code/Green.o" "../Generated_Code/Green.c"
+Finished building: ../Generated_Code/Green.c
+ 
+Building file: ../Generated_Code/PE_LDD.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+Finished building: ../Generated_Code/PE_LDD.c
+ 
+Building file: ../Generated_Code/Pins1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Pins1.d" -MT"Generated_Code/Pins1.o" -c -o "Generated_Code/Pins1.o" "../Generated_Code/Pins1.c"
+Finished building: ../Generated_Code/Pins1.c
+ 
+Building file: ../Generated_Code/RealTimeLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/RealTimeLdd1.d" -MT"Generated_Code/RealTimeLdd1.o" -c -o "Generated_Code/RealTimeLdd1.o" "../Generated_Code/RealTimeLdd1.c"
+Finished building: ../Generated_Code/RealTimeLdd1.c
+ 
+Building file: ../Generated_Code/Red.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Red.d" -MT"Generated_Code/Red.o" -c -o "Generated_Code/Red.o" "../Generated_Code/Red.c"
+Finished building: ../Generated_Code/Red.c
+ 
+Building file: ../Generated_Code/TU1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/TU1.d" -MT"Generated_Code/TU1.o" -c -o "Generated_Code/TU1.o" "../Generated_Code/TU1.c"
+Finished building: ../Generated_Code/TU1.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o   
+Finished building target: LAB9.elf
+ 
+09:33:39 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Static_Code/System/CPU_Init.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/CPU_Init.d" -MT"Static_Code/System/CPU_Init.o" -c -o "Static_Code/System/CPU_Init.o" "../Static_Code/System/CPU_Init.c"
+Finished building: ../Static_Code/System/CPU_Init.c
+ 
+Building file: ../Static_Code/System/Peripherals_Init.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Peripherals_Init.d" -MT"Static_Code/System/Peripherals_Init.o" -c -o "Static_Code/System/Peripherals_Init.o" "../Static_Code/System/Peripherals_Init.c"
+Finished building: ../Static_Code/System/Peripherals_Init.c
+ 
+Building file: ../Static_Code/System/Vectors.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Vectors.d" -MT"Static_Code/System/Vectors.o" -c -o "Static_Code/System/Vectors.o" "../Static_Code/System/Vectors.c"
+Finished building: ../Static_Code/System/Vectors.c
+ 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:68:39: error: expected statement before ')' token
+    while(FC321_GetTimeMS(&time) < 500)){
+                                       ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+09:34:23 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building file: ../Generated_Code/BitIoLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd1.d" -MT"Generated_Code/BitIoLdd1.o" -c -o "Generated_Code/BitIoLdd1.o" "../Generated_Code/BitIoLdd1.c"
+Finished building: ../Generated_Code/BitIoLdd1.c
+ 
+Building file: ../Generated_Code/BitIoLdd2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd2.d" -MT"Generated_Code/BitIoLdd2.o" -c -o "Generated_Code/BitIoLdd2.o" "../Generated_Code/BitIoLdd2.c"
+Finished building: ../Generated_Code/BitIoLdd2.c
+ 
+Building file: ../Generated_Code/BitIoLdd3.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd3.d" -MT"Generated_Code/BitIoLdd3.o" -c -o "Generated_Code/BitIoLdd3.o" "../Generated_Code/BitIoLdd3.c"
+Finished building: ../Generated_Code/BitIoLdd3.c
+ 
+Building file: ../Generated_Code/Blue.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Blue.d" -MT"Generated_Code/Blue.o" -c -o "Generated_Code/Blue.o" "../Generated_Code/Blue.c"
+Finished building: ../Generated_Code/Blue.c
+ 
+Building file: ../Generated_Code/Cpu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Finished building: ../Generated_Code/Cpu.c
+ 
+Building file: ../Generated_Code/FC321.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/FC321.d" -MT"Generated_Code/FC321.o" -c -o "Generated_Code/FC321.o" "../Generated_Code/FC321.c"
+Finished building: ../Generated_Code/FC321.c
+ 
+Building file: ../Generated_Code/Green.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Green.d" -MT"Generated_Code/Green.o" -c -o "Generated_Code/Green.o" "../Generated_Code/Green.c"
+Finished building: ../Generated_Code/Green.c
+ 
+Building file: ../Generated_Code/PE_LDD.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+Finished building: ../Generated_Code/PE_LDD.c
+ 
+Building file: ../Generated_Code/Pins1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Pins1.d" -MT"Generated_Code/Pins1.o" -c -o "Generated_Code/Pins1.o" "../Generated_Code/Pins1.c"
+Finished building: ../Generated_Code/Pins1.c
+ 
+Building file: ../Generated_Code/RealTimeLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/RealTimeLdd1.d" -MT"Generated_Code/RealTimeLdd1.o" -c -o "Generated_Code/RealTimeLdd1.o" "../Generated_Code/RealTimeLdd1.c"
+Finished building: ../Generated_Code/RealTimeLdd1.c
+ 
+Building file: ../Generated_Code/Red.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Red.d" -MT"Generated_Code/Red.o" -c -o "Generated_Code/Red.o" "../Generated_Code/Red.c"
+Finished building: ../Generated_Code/Red.c
+ 
+Building file: ../Generated_Code/TU1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/TU1.d" -MT"Generated_Code/TU1.o" -c -o "Generated_Code/TU1.o" "../Generated_Code/TU1.c"
+Finished building: ../Generated_Code/TU1.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o   
+Finished building target: LAB9.elf
+ 
+09:34:41 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+make: Nothing to be done for 'all'.
+09:36:19 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o   
+Finished building target: LAB9.elf
+ 
+09:37:53 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o   
+Finished building target: LAB9.elf
+ 
+09:40:14 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o   
+Finished building target: LAB9.elf
+ 
+09:41:22 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o   
+Finished building target: LAB9.elf
+ 
+09:42:33 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o   
+Finished building target: LAB9.elf
+ 
+09:43:09 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o   
+Finished building target: LAB9.elf
+ 
+09:46:43 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o   
+Finished building target: LAB9.elf
+ 
+09:47:15 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o   
+Finished building target: LAB9.elf
+ 
+09:48:06 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o   
+Finished building target: LAB9.elf
+ 
+09:48:48 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o   
+Finished building target: LAB9.elf
+ 
+09:49:15 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o   
+Finished building target: LAB9.elf
+ 
+09:53:01 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o   
+Finished building target: LAB9.elf
+ 
+09:53:05 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+make: Nothing to be done for 'all'.
+10:39:20 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+make: Nothing to be done for 'all'.
+10:42:13 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Static_Code/System/CPU_Init.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/CPU_Init.d" -MT"Static_Code/System/CPU_Init.o" -c -o "Static_Code/System/CPU_Init.o" "../Static_Code/System/CPU_Init.c"
+Finished building: ../Static_Code/System/CPU_Init.c
+ 
+Building file: ../Static_Code/System/Peripherals_Init.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Peripherals_Init.d" -MT"Static_Code/System/Peripherals_Init.o" -c -o "Static_Code/System/Peripherals_Init.o" "../Static_Code/System/Peripherals_Init.c"
+Finished building: ../Static_Code/System/Peripherals_Init.c
+ 
+Building file: ../Static_Code/System/Vectors.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Vectors.d" -MT"Static_Code/System/Vectors.o" -c -o "Static_Code/System/Vectors.o" "../Static_Code/System/Vectors.c"
+Finished building: ../Static_Code/System/Vectors.c
+ 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building file: ../Generated_Code/BitIoLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd1.d" -MT"Generated_Code/BitIoLdd1.o" -c -o "Generated_Code/BitIoLdd1.o" "../Generated_Code/BitIoLdd1.c"
+Finished building: ../Generated_Code/BitIoLdd1.c
+ 
+Building file: ../Generated_Code/BitIoLdd2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd2.d" -MT"Generated_Code/BitIoLdd2.o" -c -o "Generated_Code/BitIoLdd2.o" "../Generated_Code/BitIoLdd2.c"
+Finished building: ../Generated_Code/BitIoLdd2.c
+ 
+Building file: ../Generated_Code/BitIoLdd3.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd3.d" -MT"Generated_Code/BitIoLdd3.o" -c -o "Generated_Code/BitIoLdd3.o" "../Generated_Code/BitIoLdd3.c"
+Finished building: ../Generated_Code/BitIoLdd3.c
+ 
+Building file: ../Generated_Code/Blue.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Blue.d" -MT"Generated_Code/Blue.o" -c -o "Generated_Code/Blue.o" "../Generated_Code/Blue.c"
+Finished building: ../Generated_Code/Blue.c
+ 
+Building file: ../Generated_Code/Cpu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Finished building: ../Generated_Code/Cpu.c
+ 
+Building file: ../Generated_Code/FC321.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/FC321.d" -MT"Generated_Code/FC321.o" -c -o "Generated_Code/FC321.o" "../Generated_Code/FC321.c"
+Finished building: ../Generated_Code/FC321.c
+ 
+Building file: ../Generated_Code/Green.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Green.d" -MT"Generated_Code/Green.o" -c -o "Generated_Code/Green.o" "../Generated_Code/Green.c"
+Finished building: ../Generated_Code/Green.c
+ 
+Building file: ../Generated_Code/PE_LDD.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+Finished building: ../Generated_Code/PE_LDD.c
+ 
+Building file: ../Generated_Code/Pins1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Pins1.d" -MT"Generated_Code/Pins1.o" -c -o "Generated_Code/Pins1.o" "../Generated_Code/Pins1.c"
+Finished building: ../Generated_Code/Pins1.c
+ 
+Building file: ../Generated_Code/RealTimeLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/RealTimeLdd1.d" -MT"Generated_Code/RealTimeLdd1.o" -c -o "Generated_Code/RealTimeLdd1.o" "../Generated_Code/RealTimeLdd1.c"
+Finished building: ../Generated_Code/RealTimeLdd1.c
+ 
+Building file: ../Generated_Code/Red.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Red.d" -MT"Generated_Code/Red.o" -c -o "Generated_Code/Red.o" "../Generated_Code/Red.c"
+Finished building: ../Generated_Code/Red.c
+ 
+Building file: ../Generated_Code/TU1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/TU1.d" -MT"Generated_Code/TU1.o" -c -o "Generated_Code/TU1.o" "../Generated_Code/TU1.c"
+Finished building: ../Generated_Code/TU1.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o   
+Finished building target: LAB9.elf
+ 
+10:44:23 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+make: Nothing to be done for 'all'.
+11:26:26 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o   
+Finished building target: LAB9.elf
+ 
+11:27:53 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o   
+Finished building target: LAB9.elf
+ 
+11:27:59 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+make: Nothing to be done for 'all'.
+11:54:07 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+make: Nothing to be done for 'all'.
+11:57:03 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Static_Code/System/CPU_Init.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/CPU_Init.d" -MT"Static_Code/System/CPU_Init.o" -c -o "Static_Code/System/CPU_Init.o" "../Static_Code/System/CPU_Init.c"
+Finished building: ../Static_Code/System/CPU_Init.c
+ 
+Building file: ../Static_Code/System/Peripherals_Init.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Peripherals_Init.d" -MT"Static_Code/System/Peripherals_Init.o" -c -o "Static_Code/System/Peripherals_Init.o" "../Static_Code/System/Peripherals_Init.c"
+Finished building: ../Static_Code/System/Peripherals_Init.c
+ 
+Building file: ../Static_Code/System/Vectors.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Vectors.d" -MT"Static_Code/System/Vectors.o" -c -o "Static_Code/System/Vectors.o" "../Static_Code/System/Vectors.c"
+Finished building: ../Static_Code/System/Vectors.c
+ 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:150:18: error: 'false' undeclared (first use in this function)
+   bool is_zero = false;
+                  ^
+../Sources/main.c:150:18: note: each undeclared identifier is reported only once for each function it appears in
+../Sources/main.c:153:3: warning: implicit declaration of function 'AD1_Calibrate' [-Wimplicit-function-declaration]
+   AD1_Calibrate(true);
+   ^
+../Sources/main.c:153:17: error: 'true' undeclared (first use in this function)
+   AD1_Calibrate(true);
+                 ^
+../Sources/main.c:163:3: warning: implicit declaration of function 'AD1_Measure' [-Wimplicit-function-declaration]
+   AD1_Measure(TRUE);
+   ^
+../Sources/main.c:165:5: warning: implicit declaration of function 'AD1_GetValue16' [-Wimplicit-function-declaration]
+     AD1_GetValue16(&value);
+     ^
+../Sources/main.c:207:8: warning: implicit declaration of function 'Term1_SendStr' [-Wimplicit-function-declaration]
+        Term1_SendStr("Transmitting 0\n");
+        ^
+../Sources/main.c:212:8: warning: implicit declaration of function 'Term1_SendNum' [-Wimplicit-function-declaration]
+        Term1_SendNum(time);
+        ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+11:57:52 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:154:2: warning: implicit declaration of function 'AD1_Calibrate' [-Wimplicit-function-declaration]
+  AD1_Calibrate(true);
+  ^
+../Sources/main.c:164:3: warning: implicit declaration of function 'AD1_Measure' [-Wimplicit-function-declaration]
+   AD1_Measure(TRUE);
+   ^
+../Sources/main.c:166:3: warning: implicit declaration of function 'AD1_GetValue16' [-Wimplicit-function-declaration]
+   AD1_GetValue16(&value);
+   ^
+../Sources/main.c:208:6: warning: implicit declaration of function 'Term1_SendStr' [-Wimplicit-function-declaration]
+      Term1_SendStr("Transmitting 0\n");
+      ^
+../Sources/main.c:213:6: warning: implicit declaration of function 'Term1_SendNum' [-Wimplicit-function-declaration]
+      Term1_SendNum(time);
+      ^
+Finished building: ../Sources/main.c
+ 
+Building file: ../Generated_Code/BitIoLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd1.d" -MT"Generated_Code/BitIoLdd1.o" -c -o "Generated_Code/BitIoLdd1.o" "../Generated_Code/BitIoLdd1.c"
+Finished building: ../Generated_Code/BitIoLdd1.c
+ 
+Building file: ../Generated_Code/BitIoLdd2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd2.d" -MT"Generated_Code/BitIoLdd2.o" -c -o "Generated_Code/BitIoLdd2.o" "../Generated_Code/BitIoLdd2.c"
+Finished building: ../Generated_Code/BitIoLdd2.c
+ 
+Building file: ../Generated_Code/BitIoLdd3.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd3.d" -MT"Generated_Code/BitIoLdd3.o" -c -o "Generated_Code/BitIoLdd3.o" "../Generated_Code/BitIoLdd3.c"
+Finished building: ../Generated_Code/BitIoLdd3.c
+ 
+Building file: ../Generated_Code/Blue.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Blue.d" -MT"Generated_Code/Blue.o" -c -o "Generated_Code/Blue.o" "../Generated_Code/Blue.c"
+Finished building: ../Generated_Code/Blue.c
+ 
+Building file: ../Generated_Code/Cpu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Finished building: ../Generated_Code/Cpu.c
+ 
+Building file: ../Generated_Code/FC321.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/FC321.d" -MT"Generated_Code/FC321.o" -c -o "Generated_Code/FC321.o" "../Generated_Code/FC321.c"
+Finished building: ../Generated_Code/FC321.c
+ 
+Building file: ../Generated_Code/Green.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Green.d" -MT"Generated_Code/Green.o" -c -o "Generated_Code/Green.o" "../Generated_Code/Green.c"
+Finished building: ../Generated_Code/Green.c
+ 
+Building file: ../Generated_Code/PE_LDD.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+Finished building: ../Generated_Code/PE_LDD.c
+ 
+Building file: ../Generated_Code/Pins1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Pins1.d" -MT"Generated_Code/Pins1.o" -c -o "Generated_Code/Pins1.o" "../Generated_Code/Pins1.c"
+Finished building: ../Generated_Code/Pins1.c
+ 
+Building file: ../Generated_Code/RealTimeLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/RealTimeLdd1.d" -MT"Generated_Code/RealTimeLdd1.o" -c -o "Generated_Code/RealTimeLdd1.o" "../Generated_Code/RealTimeLdd1.c"
+Finished building: ../Generated_Code/RealTimeLdd1.c
+ 
+Building file: ../Generated_Code/Red.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Red.d" -MT"Generated_Code/Red.o" -c -o "Generated_Code/Red.o" "../Generated_Code/Red.c"
+Finished building: ../Generated_Code/Red.c
+ 
+Building file: ../Generated_Code/TU1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/TU1.d" -MT"Generated_Code/TU1.o" -c -o "Generated_Code/TU1.o" "../Generated_Code/TU1.c"
+Finished building: ../Generated_Code/TU1.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o   
+./Sources/main.o: In function `main':
+C:\Users\jesse\Documents\University 2017\Semester 2\CC2511\CC2511\Lab 9\LAB9\Debug/../Sources/main.c:154: undefined reference to `AD1_Calibrate'
+C:\Users\jesse\Documents\University 2017\Semester 2\CC2511\CC2511\Lab 9\LAB9\Debug/../Sources/main.c:164: undefined reference to `AD1_Measure'
+C:\Users\jesse\Documents\University 2017\Semester 2\CC2511\CC2511\Lab 9\LAB9\Debug/../Sources/main.c:166: undefined reference to `AD1_GetValue16'
+C:\Users\jesse\Documents\University 2017\Semester 2\CC2511\CC2511\Lab 9\LAB9\Debug/../Sources/main.c:208: undefined reference to `Term1_SendStr'
+C:\Users\jesse\Documents\University 2017\Semester 2\CC2511\CC2511\Lab 9\LAB9\Debug/../Sources/main.c:209: undefined reference to `Term1_SendStr'
+C:\Users\jesse\Documents\University 2017\Semester 2\CC2511\CC2511\Lab 9\LAB9\Debug/../Sources/main.c:213: undefined reference to `Term1_SendNum'
+C:\Users\jesse\Documents\University 2017\Semester 2\CC2511\CC2511\Lab 9\LAB9\Debug/../Sources/main.c:214: undefined reference to `Term1_SendStr'
+C:\Users\jesse\Documents\University 2017\Semester 2\CC2511\CC2511\Lab 9\LAB9\Debug/../Sources/main.c:215: undefined reference to `Term1_SendStr'
+C:\Users\jesse\Documents\University 2017\Semester 2\CC2511\CC2511\Lab 9\LAB9\Debug/../Sources/main.c:221: undefined reference to `Term1_SendStr'
+C:\Users\jesse\Documents\University 2017\Semester 2\CC2511\CC2511\Lab 9\LAB9\Debug/../Sources/main.c:222: undefined reference to `Term1_SendStr'
+C:\Users\jesse\Documents\University 2017\Semester 2\CC2511\CC2511\Lab 9\LAB9\Debug/../Sources/main.c:226: undefined reference to `Term1_SendNum'
+C:\Users\jesse\Documents\University 2017\Semester 2\CC2511\CC2511\Lab 9\LAB9\Debug/../Sources/main.c:227: undefined reference to `Term1_SendStr'
+C:\Users\jesse\Documents\University 2017\Semester 2\CC2511\CC2511\Lab 9\LAB9\Debug/../Sources/main.c:228: undefined reference to `Term1_SendStr'
+C:\Users\jesse\Documents\University 2017\Semester 2\CC2511\CC2511\Lab 9\LAB9\Debug/../Sources/main.c:234: undefined reference to `Term1_SendStr'
+C:\Users\jesse\Documents\University 2017\Semester 2\CC2511\CC2511\Lab 9\LAB9\Debug/../Sources/main.c:235: undefined reference to `Term1_SendStr'
+C:\Users\jesse\Documents\University 2017\Semester 2\CC2511\CC2511\Lab 9\LAB9\Debug/../Sources/main.c:239: undefined reference to `Term1_SendNum'
+C:\Users\jesse\Documents\University 2017\Semester 2\CC2511\CC2511\Lab 9\LAB9\Debug/../Sources/main.c:240: undefined reference to `Term1_SendStr'
+C:\Users\jesse\Documents\University 2017\Semester 2\CC2511\CC2511\Lab 9\LAB9\Debug/../Sources/main.c:241: undefined reference to `Term1_SendStr'
+collect2.exe: error: ld returned 1 exit status
+makefile:54: recipe for target 'LAB9.elf' failed
+make: *** [LAB9.elf] Error 1
+11:59:39 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Static_Code/System/CPU_Init.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/CPU_Init.d" -MT"Static_Code/System/CPU_Init.o" -c -o "Static_Code/System/CPU_Init.o" "../Static_Code/System/CPU_Init.c"
+Finished building: ../Static_Code/System/CPU_Init.c
+ 
+Building file: ../Static_Code/System/Peripherals_Init.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Peripherals_Init.d" -MT"Static_Code/System/Peripherals_Init.o" -c -o "Static_Code/System/Peripherals_Init.o" "../Static_Code/System/Peripherals_Init.c"
+Finished building: ../Static_Code/System/Peripherals_Init.c
+ 
+Building file: ../Static_Code/System/Vectors.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Vectors.d" -MT"Static_Code/System/Vectors.o" -c -o "Static_Code/System/Vectors.o" "../Static_Code/System/Vectors.c"
+Finished building: ../Static_Code/System/Vectors.c
+ 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:157:2: warning: implicit declaration of function 'AD1_Calibrate' [-Wimplicit-function-declaration]
+  AD1_Calibrate(true);
+  ^
+../Sources/main.c:167:3: warning: implicit declaration of function 'AD1_Measure' [-Wimplicit-function-declaration]
+   AD1_Measure(TRUE);
+   ^
+../Sources/main.c:169:3: warning: implicit declaration of function 'AD1_GetValue16' [-Wimplicit-function-declaration]
+   AD1_GetValue16(&value);
+   ^
+Finished building: ../Sources/main.c
+ 
+Building file: ../Generated_Code/ASerialLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/ASerialLdd1.d" -MT"Generated_Code/ASerialLdd1.o" -c -o "Generated_Code/ASerialLdd1.o" "../Generated_Code/ASerialLdd1.c"
+Finished building: ../Generated_Code/ASerialLdd1.c
+ 
+Building file: ../Generated_Code/BitIoLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd1.d" -MT"Generated_Code/BitIoLdd1.o" -c -o "Generated_Code/BitIoLdd1.o" "../Generated_Code/BitIoLdd1.c"
+Finished building: ../Generated_Code/BitIoLdd1.c
+ 
+Building file: ../Generated_Code/BitIoLdd2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd2.d" -MT"Generated_Code/BitIoLdd2.o" -c -o "Generated_Code/BitIoLdd2.o" "../Generated_Code/BitIoLdd2.c"
+Finished building: ../Generated_Code/BitIoLdd2.c
+ 
+Building file: ../Generated_Code/BitIoLdd3.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd3.d" -MT"Generated_Code/BitIoLdd3.o" -c -o "Generated_Code/BitIoLdd3.o" "../Generated_Code/BitIoLdd3.c"
+Finished building: ../Generated_Code/BitIoLdd3.c
+ 
+Building file: ../Generated_Code/Blue.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Blue.d" -MT"Generated_Code/Blue.o" -c -o "Generated_Code/Blue.o" "../Generated_Code/Blue.c"
+Finished building: ../Generated_Code/Blue.c
+ 
+Building file: ../Generated_Code/Cpu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Finished building: ../Generated_Code/Cpu.c
+ 
+Building file: ../Generated_Code/FC321.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/FC321.d" -MT"Generated_Code/FC321.o" -c -o "Generated_Code/FC321.o" "../Generated_Code/FC321.c"
+Finished building: ../Generated_Code/FC321.c
+ 
+Building file: ../Generated_Code/Green.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Green.d" -MT"Generated_Code/Green.o" -c -o "Generated_Code/Green.o" "../Generated_Code/Green.c"
+Finished building: ../Generated_Code/Green.c
+ 
+Building file: ../Generated_Code/Inhr1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Inhr1.d" -MT"Generated_Code/Inhr1.o" -c -o "Generated_Code/Inhr1.o" "../Generated_Code/Inhr1.c"
+Finished building: ../Generated_Code/Inhr1.c
+ 
+Building file: ../Generated_Code/PE_LDD.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+Finished building: ../Generated_Code/PE_LDD.c
+ 
+Building file: ../Generated_Code/Pins1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Pins1.d" -MT"Generated_Code/Pins1.o" -c -o "Generated_Code/Pins1.o" "../Generated_Code/Pins1.c"
+Finished building: ../Generated_Code/Pins1.c
+ 
+Building file: ../Generated_Code/RealTimeLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/RealTimeLdd1.d" -MT"Generated_Code/RealTimeLdd1.o" -c -o "Generated_Code/RealTimeLdd1.o" "../Generated_Code/RealTimeLdd1.c"
+Finished building: ../Generated_Code/RealTimeLdd1.c
+ 
+Building file: ../Generated_Code/Red.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Red.d" -MT"Generated_Code/Red.o" -c -o "Generated_Code/Red.o" "../Generated_Code/Red.c"
+Finished building: ../Generated_Code/Red.c
+ 
+Building file: ../Generated_Code/TU1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/TU1.d" -MT"Generated_Code/TU1.o" -c -o "Generated_Code/TU1.o" "../Generated_Code/TU1.c"
+Finished building: ../Generated_Code/TU1.c
+ 
+Building file: ../Generated_Code/Term1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Term1.d" -MT"Generated_Code/Term1.o" -c -o "Generated_Code/Term1.o" "../Generated_Code/Term1.c"
+Finished building: ../Generated_Code/Term1.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+./Sources/main.o: In function `main':
+C:\Users\jesse\Documents\University 2017\Semester 2\CC2511\CC2511\Lab 9\LAB9\Debug/../Sources/main.c:157: undefined reference to `AD1_Calibrate'
+C:\Users\jesse\Documents\University 2017\Semester 2\CC2511\CC2511\Lab 9\LAB9\Debug/../Sources/main.c:167: undefined reference to `AD1_Measure'
+C:\Users\jesse\Documents\University 2017\Semester 2\CC2511\CC2511\Lab 9\LAB9\Debug/../Sources/main.c:169: undefined reference to `AD1_GetValue16'
+collect2.exe: error: ld returned 1 exit status
+makefile:54: recipe for target 'LAB9.elf' failed
+make: *** [LAB9.elf] Error 1
+12:04:59 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Static_Code/System/CPU_Init.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/CPU_Init.d" -MT"Static_Code/System/CPU_Init.o" -c -o "Static_Code/System/CPU_Init.o" "../Static_Code/System/CPU_Init.c"
+Finished building: ../Static_Code/System/CPU_Init.c
+ 
+Building file: ../Static_Code/System/Peripherals_Init.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Peripherals_Init.d" -MT"Static_Code/System/Peripherals_Init.o" -c -o "Static_Code/System/Peripherals_Init.o" "../Static_Code/System/Peripherals_Init.c"
+Finished building: ../Static_Code/System/Peripherals_Init.c
+ 
+Building file: ../Static_Code/System/Vectors.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Vectors.d" -MT"Static_Code/System/Vectors.o" -c -o "Static_Code/System/Vectors.o" "../Static_Code/System/Vectors.c"
+Finished building: ../Static_Code/System/Vectors.c
+ 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building file: ../Generated_Code/AD1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/AD1.d" -MT"Generated_Code/AD1.o" -c -o "Generated_Code/AD1.o" "../Generated_Code/AD1.c"
+Finished building: ../Generated_Code/AD1.c
+ 
+Building file: ../Generated_Code/ASerialLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/ASerialLdd1.d" -MT"Generated_Code/ASerialLdd1.o" -c -o "Generated_Code/ASerialLdd1.o" "../Generated_Code/ASerialLdd1.c"
+Finished building: ../Generated_Code/ASerialLdd1.c
+ 
+Building file: ../Generated_Code/AdcLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/AdcLdd1.d" -MT"Generated_Code/AdcLdd1.o" -c -o "Generated_Code/AdcLdd1.o" "../Generated_Code/AdcLdd1.c"
+Finished building: ../Generated_Code/AdcLdd1.c
+ 
+Building file: ../Generated_Code/BitIoLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd1.d" -MT"Generated_Code/BitIoLdd1.o" -c -o "Generated_Code/BitIoLdd1.o" "../Generated_Code/BitIoLdd1.c"
+Finished building: ../Generated_Code/BitIoLdd1.c
+ 
+Building file: ../Generated_Code/BitIoLdd2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd2.d" -MT"Generated_Code/BitIoLdd2.o" -c -o "Generated_Code/BitIoLdd2.o" "../Generated_Code/BitIoLdd2.c"
+Finished building: ../Generated_Code/BitIoLdd2.c
+ 
+Building file: ../Generated_Code/BitIoLdd3.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd3.d" -MT"Generated_Code/BitIoLdd3.o" -c -o "Generated_Code/BitIoLdd3.o" "../Generated_Code/BitIoLdd3.c"
+Finished building: ../Generated_Code/BitIoLdd3.c
+ 
+Building file: ../Generated_Code/Blue.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Blue.d" -MT"Generated_Code/Blue.o" -c -o "Generated_Code/Blue.o" "../Generated_Code/Blue.c"
+Finished building: ../Generated_Code/Blue.c
+ 
+Building file: ../Generated_Code/Cpu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Finished building: ../Generated_Code/Cpu.c
+ 
+Building file: ../Generated_Code/FC321.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/FC321.d" -MT"Generated_Code/FC321.o" -c -o "Generated_Code/FC321.o" "../Generated_Code/FC321.c"
+Finished building: ../Generated_Code/FC321.c
+ 
+Building file: ../Generated_Code/Green.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Green.d" -MT"Generated_Code/Green.o" -c -o "Generated_Code/Green.o" "../Generated_Code/Green.c"
+Finished building: ../Generated_Code/Green.c
+ 
+Building file: ../Generated_Code/Inhr1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Inhr1.d" -MT"Generated_Code/Inhr1.o" -c -o "Generated_Code/Inhr1.o" "../Generated_Code/Inhr1.c"
+Finished building: ../Generated_Code/Inhr1.c
+ 
+Building file: ../Generated_Code/PE_LDD.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+Finished building: ../Generated_Code/PE_LDD.c
+ 
+Building file: ../Generated_Code/Pins1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Pins1.d" -MT"Generated_Code/Pins1.o" -c -o "Generated_Code/Pins1.o" "../Generated_Code/Pins1.c"
+Finished building: ../Generated_Code/Pins1.c
+ 
+Building file: ../Generated_Code/RealTimeLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/RealTimeLdd1.d" -MT"Generated_Code/RealTimeLdd1.o" -c -o "Generated_Code/RealTimeLdd1.o" "../Generated_Code/RealTimeLdd1.c"
+Finished building: ../Generated_Code/RealTimeLdd1.c
+ 
+Building file: ../Generated_Code/Red.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Red.d" -MT"Generated_Code/Red.o" -c -o "Generated_Code/Red.o" "../Generated_Code/Red.c"
+Finished building: ../Generated_Code/Red.c
+ 
+Building file: ../Generated_Code/TU1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/TU1.d" -MT"Generated_Code/TU1.o" -c -o "Generated_Code/TU1.o" "../Generated_Code/TU1.c"
+Finished building: ../Generated_Code/TU1.c
+ 
+Building file: ../Generated_Code/Term1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Term1.d" -MT"Generated_Code/Term1.o" -c -o "Generated_Code/Term1.o" "../Generated_Code/Term1.c"
+Finished building: ../Generated_Code/Term1.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AD1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/AdcLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+Finished building target: LAB9.elf
+ 
+12:05:51 **** Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:180:10: error: 'dull' undeclared (first use in this function)
+      if(!dull){
+          ^
+../Sources/main.c:180:10: note: each undeclared identifier is reported only once for each function it appears in
+../Sources/main.c:188:7: error: 'bright' undeclared (first use in this function)
+       bright = false;
+       ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+12:06:37 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AD1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/AdcLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+Finished building target: LAB9.elf
+ 
+12:07:19 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+make: Nothing to be done for 'all'.
+12:09:01 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AD1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/AdcLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+Finished building target: LAB9.elf
+ 
+12:10:03 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AD1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/AdcLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+Finished building target: LAB9.elf
+ 
+12:12:18 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AD1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/AdcLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+Finished building target: LAB9.elf
+ 
+12:12:24 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+make: Nothing to be done for 'all'.
+12:13:41 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AD1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/AdcLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+Finished building target: LAB9.elf
+ 
+12:16:20 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AD1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/AdcLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+Finished building target: LAB9.elf
+ 
+12:18:59 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AD1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/AdcLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+Finished building target: LAB9.elf
+ 
+12:20:26 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AD1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/AdcLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+Finished building target: LAB9.elf
+ 
+12:20:32 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+make: Nothing to be done for 'all'.
+12:28:40 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AD1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/AdcLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+Finished building target: LAB9.elf
+ 
+12:30:39 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AD1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/AdcLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+Finished building target: LAB9.elf
+ 
+12:30:42 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+make: Nothing to be done for 'all'.
+12:31:47 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/System" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/PDD" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Sources" -I"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: LAB9.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 9/LAB9/Project_Settings/Linker_Files" -Wl,-Map,"LAB9.map" -specs=nano.specs -specs=nosys.specs -o "LAB9.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AD1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/AdcLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/FC321.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+Finished building target: LAB9.elf
+ 
+08:31:59 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+make: Nothing to be done for 'all'.
+08:53:34 **** Incremental Build of configuration Debug for project LAB9 ****
+make all 
+make: Nothing to be done for 'all'.

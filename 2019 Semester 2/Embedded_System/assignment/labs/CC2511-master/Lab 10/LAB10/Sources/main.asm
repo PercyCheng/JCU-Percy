@@ -1,0 +1,103 @@
+/**
+ * CC2511 Lab 10
+ */
+
+	.text 			/* The "text" section of the executable is where code is placed. */
+	.align	2 		/* Make sure the starting address is a multiple of 2. */
+	.global	main 	/* Declare "main" as a global symbol (callable from other files). */
+  .syntax unified /* Enable Thumb2 instruction set support */
+
+/* Main function */
+main:
+	push {lr}  /* The return address is in the "link register" (lr). Preserve it by pushing it to the stack. */
+
+	/* Write your code here */
+	// loading 6 into r0
+	// mov r0, #6 8bit
+	// r0 = 6;
+	// movw r0, #6	16bit
+	// ldr r0, [r1] loads value in r1 into r0
+	// str r0, [r1] stores r0 into address r1
+
+	/*SIM_SCGC5 |= 0x3e00;
+
+	PORTA_PCR1 = 0X100;
+	PORTA_PCR2 = 0X100;
+	PORTD_PCR5 = 0X100;
+
+	GPIOA_PDDR = 0b110;
+	GPIOD_PDDR = 0b100000;*/
+
+
+
+	ldr r0, =0X40048038;
+	ldr r1, = 0X3E00;
+	str r1, [r0];
+
+	// LEDs
+	ldr r1, =0X40049004;
+	ldr r2, = 0X100;
+	str r2, [r1];
+	ldr r2, =0X40049008;
+	ldr r3, = 0X100;
+	str r3, [r2];
+	ldr r3, =0x40049014;
+	ldr r4, = 0X100;
+	str r4, [r3];
+
+	ldr r4, =0X400FF014;
+	ldr r5, = 0b110;;
+	str r5, [r4];
+	ldr r5, =0X400FF0D4;
+	ldr r6, = 0b100000;
+	str r6, [r5];
+	// looping register
+	// r6
+
+	// clear lights
+	clearLEDs:
+
+		ldr r9, =0X400FF004;
+		mov r11, 0b110;
+		str r11, [r9];
+		ldr r10, =0X400FF0C4;
+		mov r11, 0b100000;
+		str r11, [r10];
+
+
+		ldr r6, =#1000000;
+		loopOff:
+			sub r6, #1;
+			cmp r6, #0;
+			bne loopOff;
+		b loopOverall;
+
+	loopOverall:
+		ldr r7, =0X400FF008;
+		mov r8, 0b010;
+		str r8, [r7];
+		ldr r6, =#1000000;
+		loopOn:
+			sub r6, #1;
+			cmp r6, #0;
+			bne loopOn;
+
+
+
+	b clearLEDs;
+
+	pop {pc}  /* Return from this function, by popping the return address into the program counter (pc) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+

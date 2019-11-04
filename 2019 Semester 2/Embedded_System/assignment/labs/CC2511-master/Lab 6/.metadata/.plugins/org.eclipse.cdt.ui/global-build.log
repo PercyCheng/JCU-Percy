@@ -1,0 +1,159 @@
+10:32:02 **** Build of configuration Debug for project StepMotorlab6 ****
+make all 
+Building file: ../Static_Code/System/CPU_Init.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/System" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/PDD" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Sources" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/CPU_Init.d" -MT"Static_Code/System/CPU_Init.o" -c -o "Static_Code/System/CPU_Init.o" "../Static_Code/System/CPU_Init.c"
+Finished building: ../Static_Code/System/CPU_Init.c
+ 
+Building file: ../Static_Code/System/Peripherals_Init.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/System" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/PDD" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Sources" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Peripherals_Init.d" -MT"Static_Code/System/Peripherals_Init.o" -c -o "Static_Code/System/Peripherals_Init.o" "../Static_Code/System/Peripherals_Init.c"
+Finished building: ../Static_Code/System/Peripherals_Init.c
+ 
+Building file: ../Static_Code/System/Vectors.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/System" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/PDD" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Sources" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Vectors.d" -MT"Static_Code/System/Vectors.o" -c -o "Static_Code/System/Vectors.o" "../Static_Code/System/Vectors.c"
+Finished building: ../Static_Code/System/Vectors.c
+ 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/System" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/PDD" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Sources" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/System" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/PDD" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Sources" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building file: ../Project_Settings/Startup_Code/startup.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/System" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/PDD" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Sources" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Generated_Code" -std=c99 -MMD -MP -MF"Project_Settings/Startup_Code/startup.d" -MT"Project_Settings/Startup_Code/startup.o" -c -o "Project_Settings/Startup_Code/startup.o" "../Project_Settings/Startup_Code/startup.c"
+Finished building: ../Project_Settings/Startup_Code/startup.c
+ 
+Building file: ../Generated_Code/BitIoLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/System" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/PDD" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Sources" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd1.d" -MT"Generated_Code/BitIoLdd1.o" -c -o "Generated_Code/BitIoLdd1.o" "../Generated_Code/BitIoLdd1.c"
+Finished building: ../Generated_Code/BitIoLdd1.c
+ 
+Building file: ../Generated_Code/BitIoLdd2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/System" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/PDD" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Sources" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd2.d" -MT"Generated_Code/BitIoLdd2.o" -c -o "Generated_Code/BitIoLdd2.o" "../Generated_Code/BitIoLdd2.c"
+Finished building: ../Generated_Code/BitIoLdd2.c
+ 
+Building file: ../Generated_Code/Cpu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/System" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/PDD" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Sources" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Finished building: ../Generated_Code/Cpu.c
+ 
+Building file: ../Generated_Code/DIR.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/System" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/PDD" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Sources" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/DIR.d" -MT"Generated_Code/DIR.o" -c -o "Generated_Code/DIR.o" "../Generated_Code/DIR.c"
+Finished building: ../Generated_Code/DIR.c
+ 
+Building file: ../Generated_Code/PE_LDD.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/System" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/PDD" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Sources" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+Finished building: ../Generated_Code/PE_LDD.c
+ 
+Building file: ../Generated_Code/Pins1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/System" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/PDD" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Sources" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Pins1.d" -MT"Generated_Code/Pins1.o" -c -o "Generated_Code/Pins1.o" "../Generated_Code/Pins1.c"
+Finished building: ../Generated_Code/Pins1.c
+ 
+Building file: ../Generated_Code/STEP.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/System" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/PDD" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Sources" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/STEP.d" -MT"Generated_Code/STEP.o" -c -o "Generated_Code/STEP.o" "../Generated_Code/STEP.c"
+Finished building: ../Generated_Code/STEP.c
+ 
+Building target: StepMotorlab6.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Project_Settings/Linker_Files" -Wl,-Map,"StepMotorlab6.map" -specs=nano.specs -specs=nosys.specs -o "StepMotorlab6.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/Cpu.o ./Generated_Code/DIR.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/STEP.o   
+Finished building target: StepMotorlab6.elf
+ 
+10:32:26 **** Incremental Build of configuration Debug for project StepMotorlab6 ****
+make all 
+make: Nothing to be done for 'all'.
+10:34:23 **** Incremental Build of configuration Debug for project StepMotorlab6 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/System" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/PDD" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Sources" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: StepMotorlab6.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Project_Settings/Linker_Files" -Wl,-Map,"StepMotorlab6.map" -specs=nano.specs -specs=nosys.specs -o "StepMotorlab6.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/Cpu.o ./Generated_Code/DIR.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/STEP.o   
+Finished building target: StepMotorlab6.elf
+ 
+10:40:47 **** Incremental Build of configuration Debug for project StepMotorlab6 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/System" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/PDD" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Sources" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: StepMotorlab6.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Project_Settings/Linker_Files" -Wl,-Map,"StepMotorlab6.map" -specs=nano.specs -specs=nosys.specs -o "StepMotorlab6.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/Cpu.o ./Generated_Code/DIR.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/STEP.o   
+Finished building target: StepMotorlab6.elf
+ 
+10:41:42 **** Incremental Build of configuration Debug for project StepMotorlab6 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/System" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/PDD" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Sources" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: StepMotorlab6.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Project_Settings/Linker_Files" -Wl,-Map,"StepMotorlab6.map" -specs=nano.specs -specs=nosys.specs -o "StepMotorlab6.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/Cpu.o ./Generated_Code/DIR.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/STEP.o   
+Finished building target: StepMotorlab6.elf
+ 
+10:44:27 **** Incremental Build of configuration Debug for project StepMotorlab6 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/System" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/PDD" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Sources" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: StepMotorlab6.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Project_Settings/Linker_Files" -Wl,-Map,"StepMotorlab6.map" -specs=nano.specs -specs=nosys.specs -o "StepMotorlab6.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/Cpu.o ./Generated_Code/DIR.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/STEP.o   
+Finished building target: StepMotorlab6.elf
+ 
+10:45:30 **** Incremental Build of configuration Debug for project StepMotorlab6 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/System" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/PDD" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Sources" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: StepMotorlab6.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Project_Settings/Linker_Files" -Wl,-Map,"StepMotorlab6.map" -specs=nano.specs -specs=nosys.specs -o "StepMotorlab6.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/Cpu.o ./Generated_Code/DIR.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/STEP.o   
+Finished building target: StepMotorlab6.elf
+ 
+10:46:04 **** Incremental Build of configuration Debug for project StepMotorlab6 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/System" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/PDD" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Sources" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: StepMotorlab6.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Project_Settings/Linker_Files" -Wl,-Map,"StepMotorlab6.map" -specs=nano.specs -specs=nosys.specs -o "StepMotorlab6.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/Cpu.o ./Generated_Code/DIR.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/STEP.o   
+Finished building target: StepMotorlab6.elf
+ 
+10:51:11 **** Incremental Build of configuration Debug for project StepMotorlab6 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/System" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/PDD" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Sources" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: StepMotorlab6.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Project_Settings/Linker_Files" -Wl,-Map,"StepMotorlab6.map" -specs=nano.specs -specs=nosys.specs -o "StepMotorlab6.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/Cpu.o ./Generated_Code/DIR.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/STEP.o   
+Finished building target: StepMotorlab6.elf
+ 

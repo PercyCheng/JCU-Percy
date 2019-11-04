@@ -1,0 +1,333 @@
+09:21:09 **** Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+../Sources/main.asm: Assembler messages:
+../Sources/main.asm:46: Error: cannot represent T32_OFFSET_IMM relocation in this object file format
+Sources/subdir.mk:18: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+09:21:48 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+../Sources/main.asm: Assembler messages:
+../Sources/main.asm:43: Error: cannot represent T32_OFFSET_IMM relocation in this object file format
+make: *** [Sources/main.o] Error 1
+Sources/subdir.mk:18: recipe for target 'Sources/main.o' failed
+09:23:05 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+Finished building: ../Sources/main.asm
+ 
+Building file: ../Project_Settings/Startup_Code/startup_MK22F51212.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Project_Settings/Startup_Code/startup_MK22F51212.d" -MT"Project_Settings/Startup_Code/startup_MK22F51212.o" -c -o "Project_Settings/Startup_Code/startup_MK22F51212.o" "../Project_Settings/Startup_Code/startup_MK22F51212.S"
+Finished building: ../Project_Settings/Startup_Code/startup_MK22F51212.S
+ 
+Building file: ../Project_Settings/Startup_Code/system_MK22F51212.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Project_Settings/Startup_Code/system_MK22F51212.d" -MT"Project_Settings/Startup_Code/system_MK22F51212.o" -c -o "Project_Settings/Startup_Code/system_MK22F51212.o" "../Project_Settings/Startup_Code/system_MK22F51212.c"
+Finished building: ../Project_Settings/Startup_Code/system_MK22F51212.c
+ 
+Building target: LAB10.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 10/LAB10/Project_Settings/Linker_Files" -Wl,-Map,"LAB10.map" -specs=nano.specs -specs=nosys.specs -o "LAB10.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: LAB10.elf
+ 
+09:24:23 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+Finished building: ../Sources/main.asm
+ 
+Building target: LAB10.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 10/LAB10/Project_Settings/Linker_Files" -Wl,-Map,"LAB10.map" -specs=nano.specs -specs=nosys.specs -o "LAB10.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: LAB10.elf
+ 
+09:27:59 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+../Sources/main.asm: Assembler messages:
+../Sources/main.asm:47: Error: ARM register expected -- `str'
+Sources/subdir.mk:18: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+09:28:52 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+Finished building: ../Sources/main.asm
+ 
+Building target: LAB10.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 10/LAB10/Project_Settings/Linker_Files" -Wl,-Map,"LAB10.map" -specs=nano.specs -specs=nosys.specs -o "LAB10.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: LAB10.elf
+ 
+09:30:42 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+Finished building: ../Sources/main.asm
+ 
+Building target: LAB10.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 10/LAB10/Project_Settings/Linker_Files" -Wl,-Map,"LAB10.map" -specs=nano.specs -specs=nosys.specs -o "LAB10.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: LAB10.elf
+ 
+09:31:01 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+make: Nothing to be done for 'all'.
+09:32:40 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+Finished building: ../Sources/main.asm
+ 
+Building target: LAB10.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 10/LAB10/Project_Settings/Linker_Files" -Wl,-Map,"LAB10.map" -specs=nano.specs -specs=nosys.specs -o "LAB10.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: LAB10.elf
+ 
+09:32:47 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+make: Nothing to be done for 'all'.
+09:38:41 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+../Sources/main.asm: Assembler messages:
+../Sources/main.asm:49: Error: bad expression -- `mov r10,=0b100000'
+Sources/subdir.mk:18: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+09:38:46 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+../Sources/main.asm: Assembler messages:
+../Sources/main.asm:49: Error: bad expression -- `movw r10,=0b100000'
+Sources/subdir.mk:18: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+09:39:17 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+Finished building: ../Sources/main.asm
+ 
+Building target: LAB10.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 10/LAB10/Project_Settings/Linker_Files" -Wl,-Map,"LAB10.map" -specs=nano.specs -specs=nosys.specs -o "LAB10.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: LAB10.elf
+ 
+09:39:20 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+Finished building: ../Sources/main.asm
+ 
+Building target: LAB10.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 10/LAB10/Project_Settings/Linker_Files" -Wl,-Map,"LAB10.map" -specs=nano.specs -specs=nosys.specs -o "LAB10.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: LAB10.elf
+ 
+09:41:15 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+Finished building: ../Sources/main.asm
+ 
+Building target: LAB10.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 10/LAB10/Project_Settings/Linker_Files" -Wl,-Map,"LAB10.map" -specs=nano.specs -specs=nosys.specs -o "LAB10.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: LAB10.elf
+ 
+09:41:19 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+make: Nothing to be done for 'all'.
+09:42:00 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+Finished building: ../Sources/main.asm
+ 
+Building target: LAB10.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 10/LAB10/Project_Settings/Linker_Files" -Wl,-Map,"LAB10.map" -specs=nano.specs -specs=nosys.specs -o "LAB10.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: LAB10.elf
+ 
+09:42:05 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+make: Nothing to be done for 'all'.
+09:44:22 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+Finished building: ../Sources/main.asm
+ 
+Building target: LAB10.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 10/LAB10/Project_Settings/Linker_Files" -Wl,-Map,"LAB10.map" -specs=nano.specs -specs=nosys.specs -o "LAB10.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: LAB10.elf
+ 
+09:44:24 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+make: Nothing to be done for 'all'.
+09:47:02 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+Finished building: ../Sources/main.asm
+ 
+Building target: LAB10.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 10/LAB10/Project_Settings/Linker_Files" -Wl,-Map,"LAB10.map" -specs=nano.specs -specs=nosys.specs -o "LAB10.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: LAB10.elf
+ 
+09:47:09 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+make: Nothing to be done for 'all'.
+09:50:45 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+Finished building: ../Sources/main.asm
+ 
+Building target: LAB10.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 10/LAB10/Project_Settings/Linker_Files" -Wl,-Map,"LAB10.map" -specs=nano.specs -specs=nosys.specs -o "LAB10.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: LAB10.elf
+ 
+09:54:17 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+Finished building: ../Sources/main.asm
+ 
+Building target: LAB10.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 10/LAB10/Project_Settings/Linker_Files" -Wl,-Map,"LAB10.map" -specs=nano.specs -specs=nosys.specs -o "LAB10.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: LAB10.elf
+ 
+09:55:05 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+Finished building: ../Sources/main.asm
+ 
+Building target: LAB10.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 10/LAB10/Project_Settings/Linker_Files" -Wl,-Map,"LAB10.map" -specs=nano.specs -specs=nosys.specs -o "LAB10.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: LAB10.elf
+ 
+09:55:09 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+make: Nothing to be done for 'all'.
+09:58:52 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+Finished building: ../Sources/main.asm
+ 
+Building target: LAB10.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 10/LAB10/Project_Settings/Linker_Files" -Wl,-Map,"LAB10.map" -specs=nano.specs -specs=nosys.specs -o "LAB10.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: LAB10.elf
+ 
+09:58:58 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+make: Nothing to be done for 'all'.
+09:59:34 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+Finished building: ../Sources/main.asm
+ 
+Building target: LAB10.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 10/LAB10/Project_Settings/Linker_Files" -Wl,-Map,"LAB10.map" -specs=nano.specs -specs=nosys.specs -o "LAB10.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: LAB10.elf
+ 
+09:59:37 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+make: Nothing to be done for 'all'.
+10:03:18 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+../Sources/main.asm: Assembler messages:
+../Sources/main.asm:68: Error: offset out of range
+../Sources/main.asm:78: Error: offset out of range
+Sources/subdir.mk:18: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+10:03:22 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+../Sources/main.asm: Assembler messages:
+../Sources/main.asm:68: Error: offset out of range
+../Sources/main.asm:78: Error: offset out of range
+Sources/subdir.mk:18: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+10:04:19 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+Finished building: ../Sources/main.asm
+ 
+Building target: LAB10.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 10/LAB10/Project_Settings/Linker_Files" -Wl,-Map,"LAB10.map" -specs=nano.specs -specs=nosys.specs -o "LAB10.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: LAB10.elf
+ 
+10:04:23 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+make: Nothing to be done for 'all'.
+10:07:01 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+Finished building: ../Sources/main.asm
+ 
+Building target: LAB10.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 10/LAB10/Project_Settings/Linker_Files" -Wl,-Map,"LAB10.map" -specs=nano.specs -specs=nosys.specs -o "LAB10.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: LAB10.elf
+ 
+10:08:01 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+Finished building: ../Sources/main.asm
+ 
+Building target: LAB10.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 10/LAB10/Project_Settings/Linker_Files" -Wl,-Map,"LAB10.map" -specs=nano.specs -specs=nosys.specs -o "LAB10.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: LAB10.elf
+ 

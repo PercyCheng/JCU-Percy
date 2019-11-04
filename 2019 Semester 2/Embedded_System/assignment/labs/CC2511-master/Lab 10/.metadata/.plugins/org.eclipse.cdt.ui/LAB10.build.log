@@ -1,0 +1,15 @@
+10:08:01 **** Incremental Build of configuration Debug for project LAB10 ****
+make all 
+Building file: ../Sources/main.asm
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.asm"
+Finished building: ../Sources/main.asm
+ 
+Building target: LAB10.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK22FN512xxx12_flash.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Documents/University 2017/Semester 2/CC2511/CC2511/Lab 10/LAB10/Project_Settings/Linker_Files" -Wl,-Map,"LAB10.map" -specs=nano.specs -specs=nosys.specs -o "LAB10.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK22F51212.o ./Project_Settings/Startup_Code/system_MK22F51212.o   
+Finished building target: LAB10.elf
+ 
+
+10:08:01 Build Finished (took 401ms)
+

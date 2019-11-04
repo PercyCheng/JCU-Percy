@@ -1,0 +1,1316 @@
+09:40:24 **** Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Static_Code/System/CPU_Init.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/CPU_Init.d" -MT"Static_Code/System/CPU_Init.o" -c -o "Static_Code/System/CPU_Init.o" "../Static_Code/System/CPU_Init.c"
+'Finished building: ../Static_Code/System/CPU_Init.c'
+' '
+'Building file: ../Static_Code/System/Peripherals_Init.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Peripherals_Init.d" -MT"Static_Code/System/Peripherals_Init.o" -c -o "Static_Code/System/Peripherals_Init.o" "../Static_Code/System/Peripherals_Init.c"
+'Finished building: ../Static_Code/System/Peripherals_Init.c'
+' '
+'Building file: ../Static_Code/System/Vectors.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Vectors.d" -MT"Static_Code/System/Vectors.o" -c -o "Static_Code/System/Vectors.o" "../Static_Code/System/Vectors.c"
+'Finished building: ../Static_Code/System/Vectors.c'
+' '
+'Building file: ../Sources/Events.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+'Finished building: ../Sources/Events.c'
+' '
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+'Finished building: ../Sources/main.c'
+' '
+'Building file: ../Project_Settings/Startup_Code/startup.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Project_Settings/Startup_Code/startup.d" -MT"Project_Settings/Startup_Code/startup.o" -c -o "Project_Settings/Startup_Code/startup.o" "../Project_Settings/Startup_Code/startup.c"
+'Finished building: ../Project_Settings/Startup_Code/startup.c'
+' '
+'Building file: ../Generated_Code/AS1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/AS1.d" -MT"Generated_Code/AS1.o" -c -o "Generated_Code/AS1.o" "../Generated_Code/AS1.c"
+'Finished building: ../Generated_Code/AS1.c'
+' '
+'Building file: ../Generated_Code/ASerialLdd1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/ASerialLdd1.d" -MT"Generated_Code/ASerialLdd1.o" -c -o "Generated_Code/ASerialLdd1.o" "../Generated_Code/ASerialLdd1.c"
+'Finished building: ../Generated_Code/ASerialLdd1.c'
+' '
+'Building file: ../Generated_Code/Blue.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Blue.d" -MT"Generated_Code/Blue.o" -c -o "Generated_Code/Blue.o" "../Generated_Code/Blue.c"
+'Finished building: ../Generated_Code/Blue.c'
+' '
+'Building file: ../Generated_Code/Cpu.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+'Finished building: ../Generated_Code/Cpu.c'
+' '
+'Building file: ../Generated_Code/Green.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Green.d" -MT"Generated_Code/Green.o" -c -o "Generated_Code/Green.o" "../Generated_Code/Green.c"
+'Finished building: ../Generated_Code/Green.c'
+' '
+'Building file: ../Generated_Code/PE_LDD.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+'Finished building: ../Generated_Code/PE_LDD.c'
+' '
+'Building file: ../Generated_Code/Pins1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Pins1.d" -MT"Generated_Code/Pins1.o" -c -o "Generated_Code/Pins1.o" "../Generated_Code/Pins1.c"
+'Finished building: ../Generated_Code/Pins1.c'
+' '
+'Building file: ../Generated_Code/PwmLdd1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd1.d" -MT"Generated_Code/PwmLdd1.o" -c -o "Generated_Code/PwmLdd1.o" "../Generated_Code/PwmLdd1.c"
+'Finished building: ../Generated_Code/PwmLdd1.c'
+' '
+'Building file: ../Generated_Code/PwmLdd2.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd2.d" -MT"Generated_Code/PwmLdd2.o" -c -o "Generated_Code/PwmLdd2.o" "../Generated_Code/PwmLdd2.c"
+'Finished building: ../Generated_Code/PwmLdd2.c'
+' '
+'Building file: ../Generated_Code/PwmLdd3.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd3.d" -MT"Generated_Code/PwmLdd3.o" -c -o "Generated_Code/PwmLdd3.o" "../Generated_Code/PwmLdd3.c"
+'Finished building: ../Generated_Code/PwmLdd3.c'
+' '
+'Building file: ../Generated_Code/RED.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/RED.d" -MT"Generated_Code/RED.o" -c -o "Generated_Code/RED.o" "../Generated_Code/RED.c"
+'Finished building: ../Generated_Code/RED.c'
+' '
+'Building file: ../Generated_Code/TU1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/TU1.d" -MT"Generated_Code/TU1.o" -c -o "Generated_Code/TU1.o" "../Generated_Code/TU1.c"
+'Finished building: ../Generated_Code/TU1.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o   
+'Finished building target: LAb7.elf'
+' '
+09:46:32 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Static_Code/System/CPU_Init.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/CPU_Init.d" -MT"Static_Code/System/CPU_Init.o" -c -o "Static_Code/System/CPU_Init.o" "../Static_Code/System/CPU_Init.c"
+'Finished building: ../Static_Code/System/CPU_Init.c'
+' '
+'Building file: ../Static_Code/System/Peripherals_Init.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Peripherals_Init.d" -MT"Static_Code/System/Peripherals_Init.o" -c -o "Static_Code/System/Peripherals_Init.o" "../Static_Code/System/Peripherals_Init.c"
+'Finished building: ../Static_Code/System/Peripherals_Init.c'
+' '
+'Building file: ../Static_Code/System/Vectors.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Vectors.d" -MT"Static_Code/System/Vectors.o" -c -o "Static_Code/System/Vectors.o" "../Static_Code/System/Vectors.c"
+'Finished building: ../Static_Code/System/Vectors.c'
+' '
+'Building file: ../Sources/Events.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+'Finished building: ../Sources/Events.c'
+' '
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:65:18: error: 'false' undeclared (first use in this function)
+     bool is_on = false;
+                  ^
+../Sources/main.c:65:18: note: each undeclared identifier is reported only once for each function it appears in
+../Sources/main.c:71:5: warning: implicit declaration of function 'Green_SetVal' [-Wimplicit-function-declaration]
+     Green_SetVal();
+     ^
+../Sources/main.c:78:6: warning: implicit declaration of function 'Blue_PutVal' [-Wimplicit-function-declaration]
+      Blue_PutVal(sensor_GetVal());
+      ^
+../Sources/main.c:78:6: warning: implicit declaration of function 'sensor_GetVal' [-Wimplicit-function-declaration]
+../Sources/main.c:88:7: warning: implicit declaration of function 'REDdim_SetRatio8' [-Wimplicit-function-declaration]
+       REDdim_SetRatio8(brightness);
+       ^
+make: *** [Sources/main.o] Error 1
+09:47:47 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:72:5: warning: implicit declaration of function 'Green_SetVal' [-Wimplicit-function-declaration]
+     Green_SetVal();
+     ^
+../Sources/main.c:79:6: warning: implicit declaration of function 'Blue_PutVal' [-Wimplicit-function-declaration]
+      Blue_PutVal(sensor_GetVal());
+      ^
+../Sources/main.c:79:6: warning: implicit declaration of function 'sensor_GetVal' [-Wimplicit-function-declaration]
+../Sources/main.c:89:7: warning: implicit declaration of function 'REDdim_SetRatio8' [-Wimplicit-function-declaration]
+       REDdim_SetRatio8(brightness);
+       ^
+'Finished building: ../Sources/main.c'
+' '
+'Building file: ../Generated_Code/AS1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/AS1.d" -MT"Generated_Code/AS1.o" -c -o "Generated_Code/AS1.o" "../Generated_Code/AS1.c"
+'Finished building: ../Generated_Code/AS1.c'
+' '
+'Building file: ../Generated_Code/ASerialLdd1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/ASerialLdd1.d" -MT"Generated_Code/ASerialLdd1.o" -c -o "Generated_Code/ASerialLdd1.o" "../Generated_Code/ASerialLdd1.c"
+'Finished building: ../Generated_Code/ASerialLdd1.c'
+' '
+'Building file: ../Generated_Code/Blue.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Blue.d" -MT"Generated_Code/Blue.o" -c -o "Generated_Code/Blue.o" "../Generated_Code/Blue.c"
+'Finished building: ../Generated_Code/Blue.c'
+' '
+'Building file: ../Generated_Code/Cpu.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+'Finished building: ../Generated_Code/Cpu.c'
+' '
+'Building file: ../Generated_Code/Green.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Green.d" -MT"Generated_Code/Green.o" -c -o "Generated_Code/Green.o" "../Generated_Code/Green.c"
+'Finished building: ../Generated_Code/Green.c'
+' '
+'Building file: ../Generated_Code/PE_LDD.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+'Finished building: ../Generated_Code/PE_LDD.c'
+' '
+'Building file: ../Generated_Code/Pins1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Pins1.d" -MT"Generated_Code/Pins1.o" -c -o "Generated_Code/Pins1.o" "../Generated_Code/Pins1.c"
+'Finished building: ../Generated_Code/Pins1.c'
+' '
+'Building file: ../Generated_Code/PwmLdd1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd1.d" -MT"Generated_Code/PwmLdd1.o" -c -o "Generated_Code/PwmLdd1.o" "../Generated_Code/PwmLdd1.c"
+'Finished building: ../Generated_Code/PwmLdd1.c'
+' '
+'Building file: ../Generated_Code/PwmLdd2.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd2.d" -MT"Generated_Code/PwmLdd2.o" -c -o "Generated_Code/PwmLdd2.o" "../Generated_Code/PwmLdd2.c"
+'Finished building: ../Generated_Code/PwmLdd2.c'
+' '
+'Building file: ../Generated_Code/PwmLdd3.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd3.d" -MT"Generated_Code/PwmLdd3.o" -c -o "Generated_Code/PwmLdd3.o" "../Generated_Code/PwmLdd3.c"
+'Finished building: ../Generated_Code/PwmLdd3.c'
+' '
+'Building file: ../Generated_Code/RED.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/RED.d" -MT"Generated_Code/RED.o" -c -o "Generated_Code/RED.o" "../Generated_Code/RED.c"
+'Finished building: ../Generated_Code/RED.c'
+' '
+'Building file: ../Generated_Code/TU1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/TU1.d" -MT"Generated_Code/TU1.o" -c -o "Generated_Code/TU1.o" "../Generated_Code/TU1.c"
+'Finished building: ../Generated_Code/TU1.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o   
+./Sources/main.o: In function `main':
+C:\Users\jc259420\Desktop\Lab 7\LAb7\Debug/../Sources/main.c:72: undefined reference to `Green_SetVal'
+C:\Users\jc259420\Desktop\Lab 7\LAb7\Debug/../Sources/main.c:79: undefined reference to `sensor_GetVal'
+C:\Users\jc259420\Desktop\Lab 7\LAb7\Debug/../Sources/main.c:79: undefined reference to `Blue_PutVal'
+C:\Users\jc259420\Desktop\Lab 7\LAb7\Debug/../Sources/main.c:89: undefined reference to `REDdim_SetRatio8'
+collect2.exe: error: ld returned 1 exit status
+make: *** [LAb7.elf] Error 1
+09:48:12 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:89:7: warning: implicit declaration of function 'REDdim_SetRatio8' [-Wimplicit-function-declaration]
+       REDdim_SetRatio8(brightness);
+       ^
+'Finished building: ../Sources/main.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o   
+./Sources/main.o: In function `main':
+C:\Users\jc259420\Desktop\Lab 7\LAb7\Debug/../Sources/main.c:89: undefined reference to `REDdim_SetRatio8'
+collect2.exe: error: ld returned 1 exit status
+make: *** [LAb7.elf] Error 1
+09:48:22 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+'Finished building: ../Sources/main.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o   
+'Finished building target: LAb7.elf'
+' '
+09:48:52 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+make: Nothing to be done for `all'.
+09:52:05 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+make: Nothing to be done for `all'.
+09:53:38 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Static_Code/System/CPU_Init.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/CPU_Init.d" -MT"Static_Code/System/CPU_Init.o" -c -o "Static_Code/System/CPU_Init.o" "../Static_Code/System/CPU_Init.c"
+'Finished building: ../Static_Code/System/CPU_Init.c'
+' '
+'Building file: ../Static_Code/System/Peripherals_Init.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Peripherals_Init.d" -MT"Static_Code/System/Peripherals_Init.o" -c -o "Static_Code/System/Peripherals_Init.o" "../Static_Code/System/Peripherals_Init.c"
+'Finished building: ../Static_Code/System/Peripherals_Init.c'
+' '
+'Building file: ../Static_Code/System/Vectors.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Vectors.d" -MT"Static_Code/System/Vectors.o" -c -o "Static_Code/System/Vectors.o" "../Static_Code/System/Vectors.c"
+'Finished building: ../Static_Code/System/Vectors.c'
+' '
+'Building file: ../Sources/Events.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+'Finished building: ../Sources/Events.c'
+' '
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+'Finished building: ../Sources/main.c'
+' '
+'Building file: ../Generated_Code/AS1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/AS1.d" -MT"Generated_Code/AS1.o" -c -o "Generated_Code/AS1.o" "../Generated_Code/AS1.c"
+'Finished building: ../Generated_Code/AS1.c'
+' '
+'Building file: ../Generated_Code/ASerialLdd1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/ASerialLdd1.d" -MT"Generated_Code/ASerialLdd1.o" -c -o "Generated_Code/ASerialLdd1.o" "../Generated_Code/ASerialLdd1.c"
+'Finished building: ../Generated_Code/ASerialLdd1.c'
+' '
+'Building file: ../Generated_Code/Blue.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Blue.d" -MT"Generated_Code/Blue.o" -c -o "Generated_Code/Blue.o" "../Generated_Code/Blue.c"
+'Finished building: ../Generated_Code/Blue.c'
+' '
+'Building file: ../Generated_Code/Cpu.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+'Finished building: ../Generated_Code/Cpu.c'
+' '
+'Building file: ../Generated_Code/Green.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Green.d" -MT"Generated_Code/Green.o" -c -o "Generated_Code/Green.o" "../Generated_Code/Green.c"
+'Finished building: ../Generated_Code/Green.c'
+' '
+'Building file: ../Generated_Code/PE_LDD.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+'Finished building: ../Generated_Code/PE_LDD.c'
+' '
+'Building file: ../Generated_Code/Pins1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Pins1.d" -MT"Generated_Code/Pins1.o" -c -o "Generated_Code/Pins1.o" "../Generated_Code/Pins1.c"
+'Finished building: ../Generated_Code/Pins1.c'
+' '
+'Building file: ../Generated_Code/PwmLdd1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd1.d" -MT"Generated_Code/PwmLdd1.o" -c -o "Generated_Code/PwmLdd1.o" "../Generated_Code/PwmLdd1.c"
+'Finished building: ../Generated_Code/PwmLdd1.c'
+' '
+'Building file: ../Generated_Code/PwmLdd2.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd2.d" -MT"Generated_Code/PwmLdd2.o" -c -o "Generated_Code/PwmLdd2.o" "../Generated_Code/PwmLdd2.c"
+'Finished building: ../Generated_Code/PwmLdd2.c'
+' '
+'Building file: ../Generated_Code/PwmLdd3.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd3.d" -MT"Generated_Code/PwmLdd3.o" -c -o "Generated_Code/PwmLdd3.o" "../Generated_Code/PwmLdd3.c"
+'Finished building: ../Generated_Code/PwmLdd3.c'
+' '
+'Building file: ../Generated_Code/RED.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/RED.d" -MT"Generated_Code/RED.o" -c -o "Generated_Code/RED.o" "../Generated_Code/RED.c"
+'Finished building: ../Generated_Code/RED.c'
+' '
+'Building file: ../Generated_Code/TU1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/TU1.d" -MT"Generated_Code/TU1.o" -c -o "Generated_Code/TU1.o" "../Generated_Code/TU1.c"
+'Finished building: ../Generated_Code/TU1.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o   
+'Finished building target: LAb7.elf'
+' '
+09:53:59 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+make: Nothing to be done for `all'.
+09:56:40 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+'Finished building: ../Sources/main.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o   
+'Finished building target: LAb7.elf'
+' '
+09:57:15 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+make: Nothing to be done for `all'.
+09:59:08 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+'Finished building: ../Sources/main.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o   
+'Finished building target: LAb7.elf'
+' '
+10:00:19 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:98:10: error: empty character constant
+      c = '';
+          ^
+make: *** [Sources/main.o] Error 1
+10:00:25 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:98:10: error: empty character constant
+      c = '';
+          ^
+make: *** [Sources/main.o] Error 1
+10:00:46 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+'Finished building: ../Sources/main.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o   
+'Finished building target: LAb7.elf'
+' '
+10:00:52 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+make: Nothing to be done for `all'.
+10:01:37 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+make: Nothing to be done for `all'.
+10:02:52 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+make: Nothing to be done for `all'.
+10:03:12 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+make: Nothing to be done for `all'.
+10:18:56 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'MenuDisplay':
+../Sources/main.c:55:2: warning: implicit declaration of function 'send_string' [-Wimplicit-function-declaration]
+  send_string(line1);
+  ^
+../Sources/main.c: At top level:
+../Sources/main.c:59:6: warning: conflicting types for 'send_string' [enabled by default]
+ void send_string(char *str)
+      ^
+../Sources/main.c:55:2: note: previous implicit declaration of 'send_string' was here
+  send_string(line1);
+  ^
+../Sources/main.c: In function 'send_string':
+../Sources/main.c:66:2: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  len =  strlen(str  ); // returns the number of chars in str
+  ^
+../Sources/main.c:66:9: warning: incompatible implicit declaration of built-in function 'strlen' [enabled by default]
+  len =  strlen(str  ); // returns the number of chars in str
+         ^
+'Finished building: ../Sources/main.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o   
+'Finished building target: LAb7.elf'
+' '
+10:19:01 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+make: Nothing to be done for `all'.
+10:20:04 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+make: Nothing to be done for `all'.
+10:20:58 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'MenuDisplay':
+../Sources/main.c:55:2: warning: implicit declaration of function 'send_string' [-Wimplicit-function-declaration]
+  send_string(line1);
+  ^
+../Sources/main.c: At top level:
+../Sources/main.c:59:6: warning: conflicting types for 'send_string' [enabled by default]
+ void send_string(char *str)
+      ^
+../Sources/main.c:55:2: note: previous implicit declaration of 'send_string' was here
+  send_string(line1);
+  ^
+../Sources/main.c: In function 'send_string':
+../Sources/main.c:66:2: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  len =  strlen(str  ); // returns the number of chars in str
+  ^
+../Sources/main.c:66:9: warning: incompatible implicit declaration of built-in function 'strlen' [enabled by default]
+  len =  strlen(str  ); // returns the number of chars in str
+         ^
+'Finished building: ../Sources/main.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o   
+'Finished building target: LAb7.elf'
+' '
+10:21:44 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'MenuDisplay':
+../Sources/main.c:55:2: warning: implicit declaration of function 'send_string' [-Wimplicit-function-declaration]
+  send_string(line1);
+  ^
+../Sources/main.c: At top level:
+../Sources/main.c:59:6: warning: conflicting types for 'send_string' [enabled by default]
+ void send_string(char *str)
+      ^
+../Sources/main.c:55:2: note: previous implicit declaration of 'send_string' was here
+  send_string(line1);
+  ^
+../Sources/main.c: In function 'send_string':
+../Sources/main.c:66:2: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  len =  strlen(str  ); // returns the number of chars in str
+  ^
+../Sources/main.c:66:9: warning: incompatible implicit declaration of built-in function 'strlen' [enabled by default]
+  len =  strlen(str  ); // returns the number of chars in str
+         ^
+'Finished building: ../Sources/main.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o   
+'Finished building target: LAb7.elf'
+' '
+10:22:13 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+make: Nothing to be done for `all'.
+10:23:00 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+make: Nothing to be done for `all'.
+10:23:16 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+make: Nothing to be done for `all'.
+10:32:38 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+make: Nothing to be done for `all'.
+10:33:29 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'MenuDisplay':
+../Sources/main.c:55:2: warning: implicit declaration of function 'send_string' [-Wimplicit-function-declaration]
+  send_string(line1);
+  ^
+../Sources/main.c: At top level:
+../Sources/main.c:59:6: warning: conflicting types for 'send_string' [enabled by default]
+ void send_string(char *str)
+      ^
+../Sources/main.c:55:2: note: previous implicit declaration of 'send_string' was here
+  send_string(line1);
+  ^
+../Sources/main.c: In function 'send_string':
+../Sources/main.c:66:2: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  len =  strlen(str  ); // returns the number of chars in str
+  ^
+../Sources/main.c:66:9: warning: incompatible implicit declaration of built-in function 'strlen' [enabled by default]
+  len =  strlen(str  ); // returns the number of chars in str
+         ^
+'Finished building: ../Sources/main.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o   
+'Finished building target: LAb7.elf'
+' '
+10:46:38 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Static_Code/System/CPU_Init.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/CPU_Init.d" -MT"Static_Code/System/CPU_Init.o" -c -o "Static_Code/System/CPU_Init.o" "../Static_Code/System/CPU_Init.c"
+'Finished building: ../Static_Code/System/CPU_Init.c'
+' '
+'Building file: ../Static_Code/System/Peripherals_Init.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Peripherals_Init.d" -MT"Static_Code/System/Peripherals_Init.o" -c -o "Static_Code/System/Peripherals_Init.o" "../Static_Code/System/Peripherals_Init.c"
+'Finished building: ../Static_Code/System/Peripherals_Init.c'
+' '
+'Building file: ../Static_Code/System/Vectors.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Vectors.d" -MT"Static_Code/System/Vectors.o" -c -o "Static_Code/System/Vectors.o" "../Static_Code/System/Vectors.c"
+'Finished building: ../Static_Code/System/Vectors.c'
+' '
+'Building file: ../Sources/Events.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+'Finished building: ../Sources/Events.c'
+' '
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'MenuDisplay':
+../Sources/main.c:55:2: warning: implicit declaration of function 'send_string' [-Wimplicit-function-declaration]
+  send_string(line1);
+  ^
+../Sources/main.c: At top level:
+../Sources/main.c:59:6: warning: conflicting types for 'send_string' [enabled by default]
+ void send_string(char *str)
+      ^
+../Sources/main.c:55:2: note: previous implicit declaration of 'send_string' was here
+  send_string(line1);
+  ^
+../Sources/main.c: In function 'send_string':
+../Sources/main.c:66:2: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  len =  strlen(str  ); // returns the number of chars in str
+  ^
+../Sources/main.c:66:9: warning: incompatible implicit declaration of built-in function 'strlen' [enabled by default]
+  len =  strlen(str  ); // returns the number of chars in str
+         ^
+'Finished building: ../Sources/main.c'
+' '
+'Building file: ../Generated_Code/AS1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/AS1.d" -MT"Generated_Code/AS1.o" -c -o "Generated_Code/AS1.o" "../Generated_Code/AS1.c"
+'Finished building: ../Generated_Code/AS1.c'
+' '
+'Building file: ../Generated_Code/ASerialLdd1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/ASerialLdd1.d" -MT"Generated_Code/ASerialLdd1.o" -c -o "Generated_Code/ASerialLdd1.o" "../Generated_Code/ASerialLdd1.c"
+'Finished building: ../Generated_Code/ASerialLdd1.c'
+' '
+'Building file: ../Generated_Code/Blue.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Blue.d" -MT"Generated_Code/Blue.o" -c -o "Generated_Code/Blue.o" "../Generated_Code/Blue.c"
+'Finished building: ../Generated_Code/Blue.c'
+' '
+'Building file: ../Generated_Code/Cpu.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+'Finished building: ../Generated_Code/Cpu.c'
+' '
+'Building file: ../Generated_Code/Green.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Green.d" -MT"Generated_Code/Green.o" -c -o "Generated_Code/Green.o" "../Generated_Code/Green.c"
+'Finished building: ../Generated_Code/Green.c'
+' '
+'Building file: ../Generated_Code/PE_LDD.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+'Finished building: ../Generated_Code/PE_LDD.c'
+' '
+'Building file: ../Generated_Code/Pins1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Pins1.d" -MT"Generated_Code/Pins1.o" -c -o "Generated_Code/Pins1.o" "../Generated_Code/Pins1.c"
+'Finished building: ../Generated_Code/Pins1.c'
+' '
+'Building file: ../Generated_Code/PwmLdd1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd1.d" -MT"Generated_Code/PwmLdd1.o" -c -o "Generated_Code/PwmLdd1.o" "../Generated_Code/PwmLdd1.c"
+'Finished building: ../Generated_Code/PwmLdd1.c'
+' '
+'Building file: ../Generated_Code/PwmLdd2.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd2.d" -MT"Generated_Code/PwmLdd2.o" -c -o "Generated_Code/PwmLdd2.o" "../Generated_Code/PwmLdd2.c"
+'Finished building: ../Generated_Code/PwmLdd2.c'
+' '
+'Building file: ../Generated_Code/PwmLdd3.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd3.d" -MT"Generated_Code/PwmLdd3.o" -c -o "Generated_Code/PwmLdd3.o" "../Generated_Code/PwmLdd3.c"
+'Finished building: ../Generated_Code/PwmLdd3.c'
+' '
+'Building file: ../Generated_Code/RED.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/RED.d" -MT"Generated_Code/RED.o" -c -o "Generated_Code/RED.o" "../Generated_Code/RED.c"
+'Finished building: ../Generated_Code/RED.c'
+' '
+'Building file: ../Generated_Code/TU1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/TU1.d" -MT"Generated_Code/TU1.o" -c -o "Generated_Code/TU1.o" "../Generated_Code/TU1.c"
+'Finished building: ../Generated_Code/TU1.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o   
+'Finished building target: LAb7.elf'
+' '
+10:46:57 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'MenuDisplay':
+../Sources/main.c:55:2: warning: implicit declaration of function 'send_string' [-Wimplicit-function-declaration]
+  send_string(line1);
+  ^
+../Sources/main.c: At top level:
+../Sources/main.c:59:6: warning: conflicting types for 'send_string' [enabled by default]
+ void send_string(char *str)
+      ^
+../Sources/main.c:55:2: note: previous implicit declaration of 'send_string' was here
+  send_string(line1);
+  ^
+../Sources/main.c: In function 'send_string':
+../Sources/main.c:66:2: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  len =  strlen(str  ); // returns the number of chars in str
+  ^
+../Sources/main.c:66:9: warning: incompatible implicit declaration of built-in function 'strlen' [enabled by default]
+  len =  strlen(str  ); // returns the number of chars in str
+         ^
+'Finished building: ../Sources/main.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o   
+'Finished building target: LAb7.elf'
+' '
+10:47:52 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'MenuDisplay':
+../Sources/main.c:56:2: warning: implicit declaration of function 'send_string' [-Wimplicit-function-declaration]
+  send_string(line1);
+  ^
+../Sources/main.c: At top level:
+../Sources/main.c:60:6: warning: conflicting types for 'send_string' [enabled by default]
+ void send_string(char *str)
+      ^
+../Sources/main.c:56:2: note: previous implicit declaration of 'send_string' was here
+  send_string(line1);
+  ^
+'Finished building: ../Sources/main.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o   
+'Finished building target: LAb7.elf'
+' '
+11:05:21 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Static_Code/System/CPU_Init.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/CPU_Init.d" -MT"Static_Code/System/CPU_Init.o" -c -o "Static_Code/System/CPU_Init.o" "../Static_Code/System/CPU_Init.c"
+'Finished building: ../Static_Code/System/CPU_Init.c'
+' '
+'Building file: ../Static_Code/System/Peripherals_Init.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Peripherals_Init.d" -MT"Static_Code/System/Peripherals_Init.o" -c -o "Static_Code/System/Peripherals_Init.o" "../Static_Code/System/Peripherals_Init.c"
+'Finished building: ../Static_Code/System/Peripherals_Init.c'
+' '
+'Building file: ../Static_Code/System/Vectors.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Vectors.d" -MT"Static_Code/System/Vectors.o" -c -o "Static_Code/System/Vectors.o" "../Static_Code/System/Vectors.c"
+'Finished building: ../Static_Code/System/Vectors.c'
+' '
+'Building file: ../Sources/Events.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+'Finished building: ../Sources/Events.c'
+' '
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'MenuDisplay':
+../Sources/main.c:57:2: warning: implicit declaration of function 'send_string' [-Wimplicit-function-declaration]
+  send_string(line1);
+  ^
+../Sources/main.c: At top level:
+../Sources/main.c:61:6: warning: conflicting types for 'send_string' [enabled by default]
+ void send_string(char *str)
+      ^
+../Sources/main.c:57:2: note: previous implicit declaration of 'send_string' was here
+  send_string(line1);
+  ^
+'Finished building: ../Sources/main.c'
+' '
+'Building file: ../Generated_Code/ASerialLdd1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/ASerialLdd1.d" -MT"Generated_Code/ASerialLdd1.o" -c -o "Generated_Code/ASerialLdd1.o" "../Generated_Code/ASerialLdd1.c"
+'Finished building: ../Generated_Code/ASerialLdd1.c'
+' '
+'Building file: ../Generated_Code/Blue.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Blue.d" -MT"Generated_Code/Blue.o" -c -o "Generated_Code/Blue.o" "../Generated_Code/Blue.c"
+'Finished building: ../Generated_Code/Blue.c'
+' '
+'Building file: ../Generated_Code/Cpu.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+'Finished building: ../Generated_Code/Cpu.c'
+' '
+'Building file: ../Generated_Code/Green.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Green.d" -MT"Generated_Code/Green.o" -c -o "Generated_Code/Green.o" "../Generated_Code/Green.c"
+'Finished building: ../Generated_Code/Green.c'
+' '
+'Building file: ../Generated_Code/Inhr1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Inhr1.d" -MT"Generated_Code/Inhr1.o" -c -o "Generated_Code/Inhr1.o" "../Generated_Code/Inhr1.c"
+'Finished building: ../Generated_Code/Inhr1.c'
+' '
+'Building file: ../Generated_Code/PE_LDD.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+'Finished building: ../Generated_Code/PE_LDD.c'
+' '
+'Building file: ../Generated_Code/Pins1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Pins1.d" -MT"Generated_Code/Pins1.o" -c -o "Generated_Code/Pins1.o" "../Generated_Code/Pins1.c"
+'Finished building: ../Generated_Code/Pins1.c'
+' '
+'Building file: ../Generated_Code/PwmLdd1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd1.d" -MT"Generated_Code/PwmLdd1.o" -c -o "Generated_Code/PwmLdd1.o" "../Generated_Code/PwmLdd1.c"
+'Finished building: ../Generated_Code/PwmLdd1.c'
+' '
+'Building file: ../Generated_Code/PwmLdd2.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd2.d" -MT"Generated_Code/PwmLdd2.o" -c -o "Generated_Code/PwmLdd2.o" "../Generated_Code/PwmLdd2.c"
+'Finished building: ../Generated_Code/PwmLdd2.c'
+' '
+'Building file: ../Generated_Code/PwmLdd3.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd3.d" -MT"Generated_Code/PwmLdd3.o" -c -o "Generated_Code/PwmLdd3.o" "../Generated_Code/PwmLdd3.c"
+'Finished building: ../Generated_Code/PwmLdd3.c'
+' '
+'Building file: ../Generated_Code/RED.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/RED.d" -MT"Generated_Code/RED.o" -c -o "Generated_Code/RED.o" "../Generated_Code/RED.c"
+'Finished building: ../Generated_Code/RED.c'
+' '
+'Building file: ../Generated_Code/TU1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/TU1.d" -MT"Generated_Code/TU1.o" -c -o "Generated_Code/TU1.o" "../Generated_Code/TU1.c"
+'Finished building: ../Generated_Code/TU1.c'
+' '
+'Building file: ../Generated_Code/Term1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Term1.d" -MT"Generated_Code/Term1.o" -c -o "Generated_Code/Term1.o" "../Generated_Code/Term1.c"
+'Finished building: ../Generated_Code/Term1.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+'Finished building target: LAb7.elf'
+' '
+11:05:50 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+make: Nothing to be done for `all'.
+11:06:51 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+make: Nothing to be done for `all'.
+11:08:41 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/Events.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+'Finished building: ../Sources/Events.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+'Finished building target: LAb7.elf'
+' '
+11:10:17 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/Events.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:78:2: warning: implicit declaration of function 'Term1_SetColor' [-Wimplicit-function-declaration]
+  Term1_SetColor(clYellow);
+  ^
+../Sources/Events.c:78:17: error: 'clYellow' undeclared (first use in this function)
+  Term1_SetColor(clYellow);
+                 ^
+../Sources/Events.c:78:17: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Sources/Events.o] Error 1
+11:10:24 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/Events.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:78:2: warning: implicit declaration of function 'Term1_SetColor' [-Wimplicit-function-declaration]
+  Term1_SetColor("clYellow");
+  ^
+'Finished building: ../Sources/Events.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+./Sources/Events.o: In function `Inhr1_OnRxChar':
+C:\Users\jc259420\Desktop\Lab 7\LAb7\Debug/../Sources/Events.c:78: undefined reference to `Term1_SetColor'
+collect2.exe: error: ld returned 1 exit status
+make: *** [LAb7.elf] Error 1
+11:10:30 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+./Sources/Events.o: In function `Inhr1_OnRxChar':
+C:\Users\jc259420\Desktop\Lab 7\LAb7\Debug/../Sources/Events.c:78: undefined reference to `Term1_SetColor'
+collect2.exe: error: ld returned 1 exit status
+make: *** [LAb7.elf] Error 1
+11:10:58 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Static_Code/System/CPU_Init.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/CPU_Init.d" -MT"Static_Code/System/CPU_Init.o" -c -o "Static_Code/System/CPU_Init.o" "../Static_Code/System/CPU_Init.c"
+'Finished building: ../Static_Code/System/CPU_Init.c'
+' '
+'Building file: ../Static_Code/System/Peripherals_Init.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Peripherals_Init.d" -MT"Static_Code/System/Peripherals_Init.o" -c -o "Static_Code/System/Peripherals_Init.o" "../Static_Code/System/Peripherals_Init.c"
+'Finished building: ../Static_Code/System/Peripherals_Init.c'
+' '
+'Building file: ../Static_Code/System/Vectors.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Static_Code/System/Vectors.d" -MT"Static_Code/System/Vectors.o" -c -o "Static_Code/System/Vectors.o" "../Static_Code/System/Vectors.c"
+'Finished building: ../Static_Code/System/Vectors.c'
+' '
+'Building file: ../Sources/Events.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:78:2: warning: passing argument 1 of 'Term1_SetColor' makes integer from pointer without a cast [enabled by default]
+  Term1_SetColor("clYellow");
+  ^
+In file included from ../Sources/Events.h:44:0,
+                 from ../Sources/Events.c:30:
+C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code/Term1.h:199:6: note: expected 'uint8_t' but argument is of type 'char *'
+ void Term1_SetColor(uint8_t foreground,uint8_t background);
+      ^
+../Sources/Events.c:78:2: error: too few arguments to function 'Term1_SetColor'
+  Term1_SetColor("clYellow");
+  ^
+In file included from ../Sources/Events.h:44:0,
+                 from ../Sources/Events.c:30:
+C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code/Term1.h:199:6: note: declared here
+ void Term1_SetColor(uint8_t foreground,uint8_t background);
+      ^
+make: *** [Sources/Events.o] Error 1
+11:11:10 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/Events.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:78:2: error: too few arguments to function 'Term1_SetColor'
+  Term1_SetColor(clYellow);
+  ^
+In file included from ../Sources/Events.h:44:0,
+                 from ../Sources/Events.c:30:
+C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code/Term1.h:199:6: note: declared here
+ void Term1_SetColor(uint8_t foreground,uint8_t background);
+      ^
+make: *** [Sources/Events.o] Error 1
+11:11:46 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/Events.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:78:17: error: 'clblack' undeclared (first use in this function)
+  Term1_SetColor(clblack,clYellow);
+                 ^
+../Sources/Events.c:78:17: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Sources/Events.o] Error 1
+11:11:55 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/Events.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+'Finished building: ../Sources/Events.c'
+' '
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'MenuDisplay':
+../Sources/main.c:57:2: warning: implicit declaration of function 'send_string' [-Wimplicit-function-declaration]
+  send_string(line1);
+  ^
+../Sources/main.c: At top level:
+../Sources/main.c:61:6: warning: conflicting types for 'send_string' [enabled by default]
+ void send_string(char *str)
+      ^
+../Sources/main.c:57:2: note: previous implicit declaration of 'send_string' was here
+  send_string(line1);
+  ^
+'Finished building: ../Sources/main.c'
+' '
+'Building file: ../Generated_Code/ASerialLdd1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/ASerialLdd1.d" -MT"Generated_Code/ASerialLdd1.o" -c -o "Generated_Code/ASerialLdd1.o" "../Generated_Code/ASerialLdd1.c"
+'Finished building: ../Generated_Code/ASerialLdd1.c'
+' '
+'Building file: ../Generated_Code/Blue.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Blue.d" -MT"Generated_Code/Blue.o" -c -o "Generated_Code/Blue.o" "../Generated_Code/Blue.c"
+'Finished building: ../Generated_Code/Blue.c'
+' '
+'Building file: ../Generated_Code/Cpu.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+'Finished building: ../Generated_Code/Cpu.c'
+' '
+'Building file: ../Generated_Code/Green.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Green.d" -MT"Generated_Code/Green.o" -c -o "Generated_Code/Green.o" "../Generated_Code/Green.c"
+'Finished building: ../Generated_Code/Green.c'
+' '
+'Building file: ../Generated_Code/Inhr1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Inhr1.d" -MT"Generated_Code/Inhr1.o" -c -o "Generated_Code/Inhr1.o" "../Generated_Code/Inhr1.c"
+'Finished building: ../Generated_Code/Inhr1.c'
+' '
+'Building file: ../Generated_Code/PE_LDD.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+'Finished building: ../Generated_Code/PE_LDD.c'
+' '
+'Building file: ../Generated_Code/Pins1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Pins1.d" -MT"Generated_Code/Pins1.o" -c -o "Generated_Code/Pins1.o" "../Generated_Code/Pins1.c"
+'Finished building: ../Generated_Code/Pins1.c'
+' '
+'Building file: ../Generated_Code/PwmLdd1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd1.d" -MT"Generated_Code/PwmLdd1.o" -c -o "Generated_Code/PwmLdd1.o" "../Generated_Code/PwmLdd1.c"
+'Finished building: ../Generated_Code/PwmLdd1.c'
+' '
+'Building file: ../Generated_Code/PwmLdd2.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd2.d" -MT"Generated_Code/PwmLdd2.o" -c -o "Generated_Code/PwmLdd2.o" "../Generated_Code/PwmLdd2.c"
+'Finished building: ../Generated_Code/PwmLdd2.c'
+' '
+'Building file: ../Generated_Code/PwmLdd3.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd3.d" -MT"Generated_Code/PwmLdd3.o" -c -o "Generated_Code/PwmLdd3.o" "../Generated_Code/PwmLdd3.c"
+'Finished building: ../Generated_Code/PwmLdd3.c'
+' '
+'Building file: ../Generated_Code/RED.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/RED.d" -MT"Generated_Code/RED.o" -c -o "Generated_Code/RED.o" "../Generated_Code/RED.c"
+'Finished building: ../Generated_Code/RED.c'
+' '
+'Building file: ../Generated_Code/TU1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/TU1.d" -MT"Generated_Code/TU1.o" -c -o "Generated_Code/TU1.o" "../Generated_Code/TU1.c"
+'Finished building: ../Generated_Code/TU1.c'
+' '
+'Building file: ../Generated_Code/Term1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Term1.d" -MT"Generated_Code/Term1.o" -c -o "Generated_Code/Term1.o" "../Generated_Code/Term1.c"
+'Finished building: ../Generated_Code/Term1.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+'Finished building target: LAb7.elf'
+' '
+11:12:06 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+make: Nothing to be done for `all'.
+11:17:43 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/Events.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+'Finished building: ../Sources/Events.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+'Finished building target: LAb7.elf'
+' '
+11:19:23 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+make: Nothing to be done for `all'.
+11:21:25 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/Events.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+'Finished building: ../Sources/Events.c'
+' '
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'MenuDisplay':
+../Sources/main.c:57:2: warning: implicit declaration of function 'send_string' [-Wimplicit-function-declaration]
+  send_string(line1);
+  ^
+../Sources/main.c: At top level:
+../Sources/main.c:61:6: warning: conflicting types for 'send_string' [enabled by default]
+ void send_string(char *str)
+      ^
+../Sources/main.c:57:2: note: previous implicit declaration of 'send_string' was here
+  send_string(line1);
+  ^
+'Finished building: ../Sources/main.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+'Finished building target: LAb7.elf'
+' '
+11:23:22 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+make: Nothing to be done for `all'.
+11:25:49 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'MenuDisplay':
+../Sources/main.c:58:2: warning: implicit declaration of function 'send_string' [-Wimplicit-function-declaration]
+  send_string(line1);
+  ^
+../Sources/main.c: At top level:
+../Sources/main.c:63:6: warning: conflicting types for 'send_string' [enabled by default]
+ void send_string(char *str)
+      ^
+../Sources/main.c:58:2: note: previous implicit declaration of 'send_string' was here
+  send_string(line1);
+  ^
+'Finished building: ../Sources/main.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+'Finished building target: LAb7.elf'
+' '
+11:25:54 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+make: Nothing to be done for `all'.
+11:28:59 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'MenuDisplay':
+../Sources/main.c:60:2: warning: implicit declaration of function 'send_string' [-Wimplicit-function-declaration]
+  send_string(line1);
+  ^
+../Sources/main.c: At top level:
+../Sources/main.c:68:6: warning: conflicting types for 'send_string' [enabled by default]
+ void send_string(char *str)
+      ^
+../Sources/main.c:60:2: note: previous implicit declaration of 'send_string' was here
+  send_string(line1);
+  ^
+'Finished building: ../Sources/main.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+'Finished building target: LAb7.elf'
+' '
+11:30:31 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'MenuDisplay':
+../Sources/main.c:62:2: warning: implicit declaration of function 'send_string' [-Wimplicit-function-declaration]
+  send_string(line1);
+  ^
+../Sources/main.c: At top level:
+../Sources/main.c:70:6: warning: conflicting types for 'send_string' [enabled by default]
+ void send_string(char *str)
+      ^
+../Sources/main.c:62:2: note: previous implicit declaration of 'send_string' was here
+  send_string(line1);
+  ^
+'Finished building: ../Sources/main.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+'Finished building target: LAb7.elf'
+' '
+11:32:56 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'MenuDisplay':
+../Sources/main.c:63:2: warning: implicit declaration of function 'send_string' [-Wimplicit-function-declaration]
+  send_string(intro);
+  ^
+../Sources/main.c: At top level:
+../Sources/main.c:75:6: warning: conflicting types for 'send_string' [enabled by default]
+ void send_string(char *str)
+      ^
+../Sources/main.c:63:2: note: previous implicit declaration of 'send_string' was here
+  send_string(intro);
+  ^
+'Finished building: ../Sources/main.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+'Finished building target: LAb7.elf'
+' '
+11:34:57 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'MenuDisplay':
+../Sources/main.c:64:2: warning: implicit declaration of function 'send_string' [-Wimplicit-function-declaration]
+  send_string(intro);
+  ^
+../Sources/main.c: At top level:
+../Sources/main.c:76:6: warning: conflicting types for 'send_string' [enabled by default]
+ void send_string(char *str)
+      ^
+../Sources/main.c:64:2: note: previous implicit declaration of 'send_string' was here
+  send_string(intro);
+  ^
+'Finished building: ../Sources/main.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+'Finished building target: LAb7.elf'
+' '
+11:35:52 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'MenuDisplay':
+../Sources/main.c:64:2: warning: implicit declaration of function 'send_string' [-Wimplicit-function-declaration]
+  send_string(intro);
+  ^
+../Sources/main.c:77:1: error: expected ';' before '}' token
+ }
+ ^
+../Sources/main.c: At top level:
+../Sources/main.c:78:6: warning: conflicting types for 'send_string' [enabled by default]
+ void send_string(char *str)
+      ^
+../Sources/main.c:64:2: note: previous implicit declaration of 'send_string' was here
+  send_string(intro);
+  ^
+make: *** [Sources/main.o] Error 1
+11:36:18 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'MenuDisplay':
+../Sources/main.c:64:2: warning: implicit declaration of function 'send_string' [-Wimplicit-function-declaration]
+  send_string(intro);
+  ^
+../Sources/main.c: At top level:
+../Sources/main.c:78:6: warning: conflicting types for 'send_string' [enabled by default]
+ void send_string(char *str)
+      ^
+../Sources/main.c:64:2: note: previous implicit declaration of 'send_string' was here
+  send_string(intro);
+  ^
+'Finished building: ../Sources/main.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+'Finished building target: LAb7.elf'
+' '
+11:41:16 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'MenuDisplay':
+../Sources/main.c:65:2: warning: implicit declaration of function 'send_string' [-Wimplicit-function-declaration]
+  send_string(intro);
+  ^
+../Sources/main.c: At top level:
+../Sources/main.c:79:6: warning: conflicting types for 'send_string' [enabled by default]
+ void send_string(char *str)
+      ^
+../Sources/main.c:65:2: note: previous implicit declaration of 'send_string' was here
+  send_string(intro);
+  ^
+'Finished building: ../Sources/main.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+'Finished building target: LAb7.elf'
+' '
+11:46:59 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+'Finished building: ../Sources/main.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+'Finished building target: LAb7.elf'
+' '
+11:47:07 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+make: Nothing to be done for `all'.
+11:50:02 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/System" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/PDD" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Static_Code/IO_Map" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Sources" -I"C:/Users/jc259420/Desktop/Lab 7/LAb7/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+'Finished building: ../Sources/main.c'
+' '
+'Building target: LAb7.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jc259420/Desktop/Lab 7/LAb7/Project_Settings/Linker_Files" -Wl,-Map,"LAb7.map" -specs=nano.specs -specs=nosys.specs -o "LAb7.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/RED.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o   
+'Finished building target: LAb7.elf'
+' '
+11:50:10 **** Incremental Build of configuration Debug for project LAb7 ****
+make all 
+make: Nothing to be done for `all'.

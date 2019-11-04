@@ -1,0 +1,15 @@
+10:51:11 **** Incremental Build of configuration Debug for project StepMotorlab6 ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/System" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/PDD" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Sources" -I"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: StepMotorlab6.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/jesse/Desktop/CC2511/Lab 6/StepMotorlab6/Project_Settings/Linker_Files" -Wl,-Map,"StepMotorlab6.map" -specs=nano.specs -specs=nosys.specs -o "StepMotorlab6.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/Cpu.o ./Generated_Code/DIR.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/STEP.o   
+Finished building target: StepMotorlab6.elf
+ 
+
+10:51:12 Build Finished (took 692ms)
+
